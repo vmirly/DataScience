@@ -4,7 +4,7 @@ Data-Science
 <h2>Getting and Cleaning the Data</h2>
 
 Sources of data
-<u>
+<ul>
 <li> APIs: twitter, ...</li>
-</ui>
+</ul>
 
