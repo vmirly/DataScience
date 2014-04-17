@@ -13,3 +13,16 @@ Sources of data
 
 </ul>
 
+
+<h3> R commands: Getting data</h3>
+
+```
+file.exists("somefile")
+dir.create("newdirectory")
+
+if (!file.exists("data")) {
+  dir.create("date")
+}
+
+download.file(url, destfile, method)
+```
