@@ -26,3 +26,7 @@ if (!file.exists("data")) {
 
 download.file(url, destfile, method)
 ```
+
+method: for https on mac use "curl"
+
+
