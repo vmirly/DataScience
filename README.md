@@ -56,9 +56,125 @@ skip  ==> number of lines to skip before starting to read
 
 XML:
 
- start tags \<section\>
- end tags   \</section\>
- empty tags   \</line-break /\>
+<ul>
+<li> start tags \<section\> </li>
+<li> end tags   \</section\> </li>
+<li> empty tags   \</line-break /\> </li>
+</ul>
 
 Elements:
  \<greeeting\> Hello Worls \</greetin\>
+
+Attribute: components of the label
+ \<img src="" alt="instructor" /\>
+
+
+```
+library(xml)
+
+fileUrl <- "http://www.w3schools.com/xml/simple.xml"
+doc <- xmlTreeParse(fileUrl, useInternal=TRUE)
+
+rootNode <- xmlRoot(doc)
+xmlName(rootNode)
+
+names(rootNode)
+
+rootNode[[1]]
+
+rootNode[[1]][[1]]
+
+xmlSApply(rootNode, xmlvalue)
+
+``` 
+
+XPath:
+
+<ul>
+<li> /npde : top level node </li>
+<li> //node : node at any level </li>
+<li> node[@attr-name] : node with an attribute name </li>
+<li> node[@attr-name='bob']  </li>
+</ul>
+
+```
+xpathSApply(rootNode, "//name", xmlValue)
+
+xpathSApply(rootNode, "//price", xmlValue)
+```
+
+Example:
+```
+# ESPN xml
+fileUrl.espn <- "http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens" 
+
+doc.espn <- htmlTreeParse(fileUrl.espn, useInternal=TRUE)
+scores.espn <- xpathSApply(doc.espn, "//li[@class='score']", xmlValue)
+teams.espn <- xpathSApply(doc.espn, "//li[@class='team-name']", xmlValue)
+
+```
+
+<h4> Reading JSON >/h4>
+
+Common format for data from application programmin interfaces (APIs)
+
+```
+library(jsonlite)
+
+jsonData <- fromJSON("https://api.github.com/users/jtleek/repos")
+names(jsonData)
+
+names(jsonData$owner)
+
+jsonData$owner$login
+
+```
+
+Writing (converting) data.frames to json format:
+```
+myjson <- toJSON(iris, pretty=TRUE)
+cat(myjson)
+```
+convert back to data.frame:
+```
+iris2 <- fromJSON(myjson)
+head(iris2)
+```
+
+<h3> Package data.table </h3>
+
+Faster version of data.frame
+
+```
+library(data.table)
+
+DF = data.frame(x=rnorm(9), y=rep(c("a","b","c"),each=3), z=rnorm(9))
+head(DF,3)
+
+DT = data.table(x=rnorm(9), y=rep(c("a","b","c"),each=3), z=rnorm(9))
+head(DT,3)
+
+tables()
+
+DT[2,]
+
+DT[DT$y=="a",]
+
+#subsetting is based on rows:
+DT[c(2,3)]
+
+#subset columns is diifenet than data.frame
+DT[,c(2,3)]
+
+DT[,list(mean(x), sum(z))]
+
+# to add a new column:
+DT[,w:=z^2]
+
+DT2 <- DT
+DT[,y:=2] # this will also affect DT2
+```
+
+tables() ==> shows all the data.tables in the memory, and their name, nrows, ..
+
+
