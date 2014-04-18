@@ -173,8 +173,43 @@ DT[,w:=z^2]
 
 DT2 <- DT
 DT[,y:=2] # this will also affect DT2
+
+## Multiple operations
+DT[,m:= {tmp <- (x+z); log2(tmp+5)}] #multistep operation
+
+DT[,a:=x>0]
+
+# mean of x+w group by a:
+DT[, b:=mean(x+w), by=a]
+
+
+## Keys:
+DT <- data.table(x=rep(c("a","b","c"),each=100), y=rnorm(300))
+setkey(DT, x)
+DT['a']
+
+DT1 <- data.table(x=c('a','a','b','dt1'), y=1:4)
+DT2 <- data.table(x=c('a','b','dt2'), z=5:7)
+setkey(DT1, x)
+setkey(DT2, x)
+merge(DT1, DT2)
+
 ```
 
 tables() ==> shows all the data.tables in the memory, and their name, nrows, ..
 
+Fast Reading:
+```
+big_df <- data.frame(x=rnorm(1E6), y=rnorm(1E6))
+
+file <- tempfile()
+write.table(big_df, file=file, row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
+
+system.time(fread(file))
+
+system.time(read.table(file, header=TRUE, sep="\t"))
+
+```
+
+<b>fread </b>is much faster than read.table 
 
