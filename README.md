@@ -56,11 +56,9 @@ skip  ==> number of lines to skip before starting to read
 
 XML:
 
- start tags <section>
-
- end tags   </section>
-
- empty tags   </line-break />
+ start tags \<section\>
+ end tags   \</section\>
+ empty tags   \</line-break /\>
 
 Elements:
- <greeeting> Heello Worls </greetin>
+ \<greeeting\> Hello Worls \</greetin\>
