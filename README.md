@@ -1,6 +1,38 @@
 Data-Science
 ===========
 
+# Intro to Data Science 
+
+The types of questions that data science tries to answer includes
+
+* Descriptive
+* Exploratory
+* Inferential
+* Predictive
+* Causal
+* Mechanistic
+
+### Descriptive analysis:
+ Goal: Describe a set of data. For example census data. 
+ Without trying to predict any variable.
+
+### Exploratory analysis
+ Goal: Find relationships you didn't know about.
+
+### Inferential analysis
+ Goal: Use a small sample of data to say something about a bigger population
+ Inference is commonly the goal of statistical analysis
+ 
+### Predictive analysis
+ Goal: To use data on some objects to predict values for another objects
+
+### Causal analysis
+ Goal: To find out what happens to one variable when you make changes to another variable
+ 
+### Mechanistic analysis
+ Goal: Understant the exact changes in variabes that lead to changes in other variable for individual objects
+
+
 
 Raw data -> Processing script -> tidy data -> data analysis -> data communication
 
