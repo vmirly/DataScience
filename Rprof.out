@@ -1,0 +1,5 @@
+sample.interval=20000
+"ls" "match" "%in%" "find" "getAnywhere" "<Anonymous>" "do.call" "FUN" "lapply" "unlist" "unique" "functionArgs" ".completeToken" 
+"ls" "apropos" "normalCompletions" ".completeToken" 
+"sub" "methods" "doTryCatch" "tryCatchOne" "tryCatchList" "doTryCatch" "tryCatchOne" "tryCatchList" "tryCatch" "functionArgs" ".completeToken" 
+"ls" "apropos" "normalCompletions" ".completeToken" 
