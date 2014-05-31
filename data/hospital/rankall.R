@@ -20,21 +20,14 @@ rankall <- function(outcome, num = "best") {
 	}
 
 	state.list <- c('AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NV', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'VA', 'WA', 'WV', 'WI', 'WY')
-	if (!(state %in% state.list)) {
-		stop("invalid state")
-	}
 
-	d.sub <- d[d[,7] == state,]
-	#d.sub[which.min(d.sub[,out.col]),2]
-	d.sub[,out.col] = as.numeric(d.sub[,out.col])
-	d.sub <- d.sub[complete.cases(d.sub[,c(2,out.col)]),]
+	d[,out.col] = as.numeric(d[,out.col])
+	d <- d[complete.cases(d[,c(2,out.col)]),]
+	d.splt <- split(d, as.factor(d[,7]))
 	
-	d.sub <- d.sub[order(d.sub[,out.col], d.sub[,2]),]
 	if (num %in% c("best", "worst")) {
 		if (num == "best") {
 			num = 1
-		} else {
-			num = length(d.sub[,2])
 		}
 	} else {
 		num = as.numeric(num)
@@ -42,5 +35,15 @@ rankall <- function(outcome, num = "best") {
 
 	#print(head(d.sub[,c(2,out.col)]))
 	#print(class(d.sub[num,2]))
-	return(d.sub[num,2])
+	if (num != "worst") {
+		res <- sapply(d.splt, function(x) x[order(x[,out.col], x[,2])[num], 2])
+	} else {
+		res <- sapply(d.splt, function(x) x[tail(order(x[,out.col], x[,2]),1), 2])
+	}
+	#res <- sapply(res, function(x) x[num,])
+	#colnames(res) = c("hospital", "state")
+	data.frame(
+		hospital=res,
+		state=names(res)
+	)
 }
