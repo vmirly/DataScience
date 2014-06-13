@@ -15,6 +15,7 @@ markdown document to a HTML file.
 
 Code-blocks have to be indented 4 white spaces. For example, like the following:
 
+    :::python
     import numpy as np
     arr = np.array([1, 2, 3])
     print (arr.shape)
