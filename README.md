@@ -1,6 +1,10 @@
 Data-Science
 ===========
 
+Links to ipython notebooks: 
+ 
+  <a href="http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_gettingData.ipynb"> R-Getting and Cleaning Data </A>
+
 # Intro to Data Science 
 
 The types of questions that data science tries to answer includes
