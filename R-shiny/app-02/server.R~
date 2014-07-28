@@ -3,9 +3,7 @@
 
 library(shiny)
 
-makeRandomDF <- function(mean, n) {
-	## generate a random dataframe of size n
-	## with the same number of columns as mean vector
+makeRandomDF <- function(n=1) {
 	
 }
 
