@@ -20,9 +20,10 @@ shinyServer(
 
 		mean.1 <- colMeans(df.1)
 		mean.2 <- colMeans(df.2)
-		
+
+		sqrt(sum((mean.1 - mean.2)^2))
 	})
 
-	output$outputId3 <- renderPrint({input$id1*40})
+	output$outputId3 <- renderPrint(mean.diff)
     }
 )
