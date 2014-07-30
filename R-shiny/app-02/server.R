@@ -24,6 +24,6 @@ shinyServer(
 		sqrt(sum((mean.1 - mean.2)^2))
 	})
 
-	output$outputId3 <- renderPrint(mean.diff)
+	output$outputId3 <- renderPrint(mean.diff())
     }
 )
