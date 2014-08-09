@@ -1,6 +1,9 @@
 Data-Science
 ===========
 
+ *Adopted from Data Science track on www.coursera.org*
+
+
 Links to IPython notebooks: 
  
  
@@ -28,26 +31,39 @@ The types of questions that data science tries to answer includes
 ### Descriptive analysis:
  Goal: Describe a set of data. For example census data. 
  Without trying to predict any variable.
+ 
+ - ideal dataset: whole population
 
 ### Exploratory analysis
  Goal: Find relationships you didn't know about.
+ 
+ - ideal dataset: a random sample with many varaibles
 
 ### Inferential analysis
  Goal: Use a small sample of data to say something about a bigger population
  Inference is commonly the goal of statistical analysis
  
+ - ideal dataset: randomly sampled from te right population
+ 
 ### Predictive analysis
  Goal: To use data on some objects to predict values for another objects
+ 
+ - ideal dataset: spliting the population to training and testing datasets
 
 ### Causal analysis
  Goal: To find out what happens to one variable when you make changes to another variable
  
+ - ideal dataset: a random data
+ 
 ### Mechanistic analysis
  Goal: Understand the exact changes in variables that lead to changes in other variable for individual objects
 
+ - ideal dataset: data containing all components of the system under study
 
 
-Raw data -> Processing script -> tidy data -> data analysis -> data communication
+* Pipeline of Data Analysis:
+
+   Raw data -> Processing script -> tidy data -> data analysis -> data communication
 
 ## Getting and Cleaning the Data
 
