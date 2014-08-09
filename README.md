@@ -3,9 +3,15 @@ Data-Science
 
 Links to IPython notebooks: 
  
-  [R-Programming Reference](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_Programming.ipynb)
+ 
+  -[R-Programming Reference](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_Programming.ipynb)
   
-  [R-Getting and Cleaning Data](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_gettingData.ipynb)
+  -[R-Getting and Cleaning Data](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_gettingData.ipynb)
+
+  -[Regression Models in R](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/regressionAnalysis.ipynb)
+  
+  -[Developing Interactive Apps with R-Shiny](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_shiny.ipynb)
+  
 
 
 # Intro to Data Science 
