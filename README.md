@@ -1,7 +1,7 @@
 Data-Science
 ===========
 
- *Adopted from Data Science track on www.coursera.org*
+
 
 
 Links to IPython notebooks: 
@@ -16,6 +16,8 @@ Links to IPython notebooks:
   -[Developing Interactive Apps with R-Shiny](http://nbviewer.ipython.org/github/mirjalil/DataScience/blob/master/R_shiny.ipynb)
   
 
+
+ *Adopted from Data Science track on www.coursera.org*
 
 # Intro to Data Science 
 
@@ -61,7 +63,7 @@ The types of questions that data science tries to answer includes
  - ideal dataset: data containing all components of the system under study
 
 
-* Pipeline of Data Analysis:
+### General Pipeline of Data Analysis:
 
    Raw data -> Processing script -> tidy data -> data analysis -> data communication
 
