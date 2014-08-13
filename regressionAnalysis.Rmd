@@ -1,0 +1,24 @@
+---
+title: "Regression Analysis in R"
+author: "Vahid Mirjalili, Data Mining Researcher"
+date: "08/13/2014"
+output: html_document
+---
+
+```{r}
+sessionInfo()
+```
+
+<table style="border-collapse:collapse;">
+  <tr >
+     <td>
+     <img src="figs/regression.example-1.svg" width=300 height=300></img>
+     </td>
+     
+     <td>
+     There are a dozen of regression models, that each may fit to a particular data. In this article, a handset of regression models are described with examples with **R**. 
+     </td>
+   </tr>
+</table>
+
+A 2D dataset is provided as drawn below, 
