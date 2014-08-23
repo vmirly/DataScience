@@ -15,18 +15,17 @@ colnames(emis_year_type) = c("POINT", "NONPOINT", "ONROAD", "NONROAD")
 
 res <- data.frame( 
   year=rownames(emis_year_type),
-  emiss=c(emis_year_type$POINT, emis_year_type$NONPOINT, emis_year_type$ONROAD, emis_year_type$NONROAD),
+  emission=c(emis_year_type$POINT, emis_year_type$NONPOINT, emis_year_type$ONROAD, emis_year_type$NONROAD),
   type=as.factor(rep(c("Point", "Non-point", "On-road", "Non-road"), each=4))
 )
 
 library(ggplot2)
+
+
 png("plot3.png")
 
-plot(names(emis_year), emis_year, type="b", pch=19, cex=1.6,
-	col="steelblue", lwd=5, cex.axis=1.7, cex.lab=1.7, 
-	xlab="Year", ylab=expression(paste("Total ",  PM[2.5], " Emission", sep="")), axes=F)
+#ggplot(res, x=year, y=emission, col=type) + geom_line()
+ggplot(res, aes(x=year, y=emission, col=type)) + geom_point(size=6)  +geom_line(aes(group=type), lwd=2)
 
-axis(side=1, at=unique(d$year), cex.axis=1.6)
-axis(side=2, cex.axis=1.6)
 
 dev.off()
