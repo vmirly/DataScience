@@ -11,6 +11,7 @@ emis_year_type <- sapply(d.spl, function(x) tapply(x$Emissions, factor(x$year), 
 
 print(unique(d$year))
 
+emis_year_type <- as.data.frame(emis_year_type)
 colnames(emis_year_type) = c("POINT", "NONPOINT", "ONROAD", "NONROAD")
 
 res <- data.frame( 
