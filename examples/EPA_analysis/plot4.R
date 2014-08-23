@@ -11,7 +11,7 @@ scc.coal <- ds[coal,]$SCC
 
 d.sub <- d[d$SCC %in% scc.coal,]
 
-emis_year <- sapply(d.sub, function(x) tapply(x$Emissions, factor(x$year), sum))
+emis_year <- tapply(d.sub$Emissions, factor(x$year), sum)
 
 print(unique(d$year))
 
