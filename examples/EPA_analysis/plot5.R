@@ -4,20 +4,25 @@
 d <- readRDS("../../data/EPA_fineparticlematter/summarySCC_PM25.rds")
 ds <- readRDS("../../data/EPA_fineparticlematter/Source_Classification_Code.rds")
 
+d <- d[d$fips == "24510",]
 
-coal <- sapply(ds$Short.Name, function(x) grepl('Coal', x))
+motor <- sapply(ds$Short.Name, function(x) grepl('Motor', x))
+print(c("num_motor: ", sum(motor)))
 
-scc.coal <- ds[coal,]$SCC
+scc.motor <- ds[motor,]$SCC
 
-d.sub <- d[d$SCC %in% scc.coal,]
+print(str(scc.motor))
+
+d.sub <- d[d$SCC %in% scc.motor,]
 print(str(d.sub))
 
 emis_year <- tapply(d.sub$Emissions, factor(d.sub$year), sum)
-
-print(unique(d$year))
 print(emis_year)
 
-png("plot4.png")
+print(unique(d$year))
+
+
+png("plot5.png")
 par(mar=c(4.7, 4.7, 0.6, 0.6))
 plot(names(emis_year), emis_year, type="b", pch=19, cex=1.6,
         col="steelblue", lwd=5, cex.axis=1.7, cex.lab=1.7,
