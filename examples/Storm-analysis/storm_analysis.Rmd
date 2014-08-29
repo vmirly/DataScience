@@ -1,0 +1,104 @@
+---
+title: "Analyzing Impact of Environmental Events on Population Health & Economy"
+author: "Vahid Mirjalili"
+date: "08/23/2014"
+output: html_document
+---
+
+## Summary
+
+This report download the data about environment event and its impact from web. Then, we analyze the data to identify the most harmful climate event types.
+
+##Synopsis
+
+In this report, we analyze the number of casualties and economic damages reported for each environment event type. We found out that by looking at the average number of casualties, tornadoes have the highest number of fatalities while heat wave has the most reported injuries.
+
+On the other hand for economic impact of weather events, the highest property damaes is reported from coastal erosion, and the source of highest crop damages is dust storm/high winds.
+
+## Data Processing
+
+The data is stored in a comma-separated file (stormdata.csv). The data is downloaded from [Strom Data](#https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2). The data is read by making a connection with **bzfile()**, and then read via **read.csv()** function:
+
+```{echo=TRUE}
+download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2",
+destfile="~/stromdata.csv.bz2")
+df <- read.csv(bzfile("~/stormdata.csv.bz2"))
+```
+
+This data frame has 902297 observations for 37 variables, reporting weather conditions in U.S. counties.
+
+```{r echo=TRUE}
+## Number of rows and columns in the dataframe:
+
+c(nrow(df),
+ncol(df))
+```
+
+
+
+## Results
+
+### Impact of Environmental Events on Population Health
+
+The first question we want to answer is which weather condition has resulted in the most casualties, and injuries. Therefore, we aggregate the number of casualties and injuries reported after splitting the data according to the event type (*EVTYPE*):
+
+```{r, echo=TRUE}
+## compute the mean number of casualties for each event type
+df.fatal <- tapply(df$FATALITIES, df$EVTYPE, function(x) mean(x, na.rm=T))
+
+df.injury <- tapply(df$INJURIES, df$EVTYPE, function(x) mean(x, na.rm=T))
+```
+
+Then, we can plot these two vectors to get a sense of how the result look like:
+
+```{r, echo=TRUE}
+ymax <- max(c(df.fatal, df.injury))
+par(mar=c(4.7, 4.7, 0.8, 0.8))
+plot(df.fatal, ylim=c(0, ymax), pch=19, col=rgb(0.3, 0.3, 0.7, 0.5), 
+  xlab="Event Type Index", ylab="Mean Num. of Casualties", cex.axis=1.6, cex.lab=1.6)
+
+points(df.injury, pch=17, col=rgb(0.8, 0.3, 0.5, 0.5), cex=1.3)
+
+legend(x=700, y=70, pch=c(19, 17), col=c(rgb(0.3, 0.3, 0.7, 0.5), rgb(0.8, 0.3, 0.5, 0.5)), 
+       legend=c("Fatalities", "Injuries"), cex=1.7)
+```
+
+So, we can see that **tornadoes, thunderstorm winds, and hails** have the highest number of fatalities, and **heat wave** has the highest number of injuries, on average.
+
+```{r, echo=TRUE}
+c(which.max(df.fatal), which.max(df.injury))
+```
+
+### Environment Impact on Economy
+
+In this section, we analyze the environment impact on economy by computing the mean of property damage and crop damage for each event type (variables *PROPDMG*, and *CROPDMG*).
+
+```{r, echo=TRUE}
+## compute the mean value of property and crop damages reported
+df.propdmg <- tapply(df$PROPDMG, df$EVTYPE, function(x) mean(x, na.rm=T))
+
+df.cropdmg <- tapply(df$CROPDMG, df$EVTYPE, function(x) mean(x, na.rm=T))
+
+ymin <- min(c(df.propdmg, df.cropdmg))
+ymax <- max(c(df.propdmg, df.cropdmg))
+par(mar=c(4.7, 4.7, 0.8, 0.8), mfrow=c(1,2))
+plot(df.propdmg, ylim=c(ymin, ymax), pch=19, col=rgb(0.3, 0.3, 0.7, 0.5), 
+  xlab="Event Type Index", ylab="Average Damages", cex.axis=1.6, cex.lab=1.6)
+
+plot(df.cropdmg, pch=17, col=rgb(0.8, 0.3, 0.5, 0.5), 
+     xlab="Event Type Index", ylab="", cex.axis=1.6, cex.lab=1.6)
+
+legend(x=700, y=710, pch=c(19, 17), 
+       col=c(rgb(0.3, 0.3, 0.7, 0.5), rgb(0.8, 0.3, 0.5, 0.5)), 
+       legend=c("Property", "Crop"), cex=1.7)
+```
+
+So, the most damages for property damages is reported with **coastal erosion** 
+```{r, echo=TRUE}
+which.max(df.propdmg)
+```
+
+and for crop dames is **dust storm/high wind**
+```{r, echo=TRUE}
+which.max(df.cropdmg)
+```
