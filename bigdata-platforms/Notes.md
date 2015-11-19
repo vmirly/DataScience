@@ -1,6 +1,6 @@
 
 
-Hadoop Basic Components:
+## Hadoop Basic Components
 
     * Hadoop common
     * Hadoop Distributed File System (HDFS)
@@ -20,3 +20,13 @@ Other Apache applications such as Apache PIG, and Apache Hive sit on these compo
 HDFS stores large files, (a few Gigabytes), and it provide reliability by repplicating files across multiple hosts (no REID storage on hosts).
 Each node is name node, cluster of data nodes. 
 A namenode contains directory information, and which system contains which part of data.
+
+Job submission framework: 
+  * jobtracker
+  * tasktracker
+
+YARN focuses strictly on scheduling --> achieved great scalibility.
+With YARN, other complex analyses such as graph processing, Iterative models, and machine learning has been enabled.
+
+
+## Hadoop Applications
