@@ -30,3 +30,25 @@ With YARN, other complex analyses such as graph processing, Iterative models, an
 
 
 ## Hadoop Applications
+
+Cloudera's Distribution for Hadoop:
+   * Hue: for user interface
+   * Oozie: for scheduling and workflow
+   * Pig and Hive: for high level languages 
+
+   * SQOOP: (SQL to Hadoop) a command-line tool for database capability, import data from SQL databases
+
+   * HBASE: fast random access to HDFS data
+
+   * PIG: a high level programming language for data analysis and manipulation
+
+   * Hive: querying and managing large datasets, allowing SQL-like queries (HiveQL)
+
+   * Oozie: scheduling Hadoop jobs, very scalable
+
+   * Flume: for collecting, aggregating and moving large LOG data
+
+   * Impala: query engine for Hadoop
+
+   * Spark: Stream processing, in memory computing, providing advantages over the traditional Hadoop framework. Well suited for Machine Learning
+     Multi-stage in memory primities, up tp 100 times speedup in certain applications.
