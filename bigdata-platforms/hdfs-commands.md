@@ -51,3 +51,19 @@ FSCK ended at Sun Dec 06 20:51:43 EST 2015 in 10 milliseconds
 
 The filesystem under path '/test-hdfs/sample.txt' is HEALTHY
 ```
+
+
+Available HDFS commands:
+
+| Command |                      Usage                      |
+|:-------:|:-----------------------------------------------:|
+|   -ls   |    List files and directories  the given path   |
+|   -cp   |              Copy files within HDFS             |
+|   -mv   |              Move files within HDFS             |
+|   -rm   |                   Remove file                   |
+|   -lsr  |             Recursive version of -ls            |
+|   -rmr  |             Recursive version of -rm            |
+|   -cat  |         Display content of file on HDFS         |
+|  -tail  |         Show the last 1KB of a HDFS file        |
+|   -get  | Transfer a file from HDFS to  local file system |
+|   -put  |      Transfer a file from local FS to HDFS      |
