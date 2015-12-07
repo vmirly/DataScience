@@ -1,7 +1,7 @@
 
 
 
-### Installation:
+## Installation:
 
   * Pre installation:
 
@@ -21,4 +21,10 @@ After installing these packages, you can install scrapy
    pip install scrapy
 ```
 
+### Command line tools
 
+```
+   scrapy 
+```
+
+## Start a new project
