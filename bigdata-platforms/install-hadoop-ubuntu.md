@@ -172,4 +172,42 @@ After you are done, stop the daemons:
 
 8. Configure and use **YARN**
 
+In order to run map-reduce jobs on YARN, we need to configure etc/hadoop/mapred-site.xml
 
+If this file doesn;t exist, copy it from the template 
+
+```
+    hduser@ubuntu:~/hadoop-2.7.1$ cp etc/hadoop/mapred-site.xml.template etc/hadoop/mapred-site.xml
+```
+
+Then, add the following to it
+
+```
+<configuration>
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+</configuration>
+```
+
+as well as etc/hadoop/yarn-site.xml
+
+```
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+</configuration>
+```
+
+Then, we can start YARN resource manager by
+
+```
+    hduser@ubuntu:~/hadoop-2.7.1$ sbin/start-yarn.sh
+```
+
+And the resource manager web interface can be seen at http://localhost:8088/
+
+![YARN Web Interface](yarn-web-interface.png)
