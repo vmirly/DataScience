@@ -1,0 +1,456 @@
+Message-ID: <16159836.1075855377439.JavaMail.evans@thyme>
+Date: Fri, 7 Dec 2001 10:06:42 -0800 (PST)
+From: heather.dunton@enron.com
+To: k..allen@enron.com
+Subject: RE: West Position
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Dunton, Heather </O=ENRON/OU=NA/CN=RECIPIENTS/CN=HDUNTON>
+X-To: Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+ 
+Please let me know if you still need Curve Shift.
+
+Thanks,
+Heather
+ -----Original Message-----
+From: 	Allen, Phillip K.  
+Sent:	Friday, December 07, 2001 5:14 AM
+To:	Dunton, Heather
+Subject:	RE: West Position
+
+Heather,
+
+Did you attach the file to this email?
+
+ -----Original Message-----
+From: 	Dunton, Heather  
+Sent:	Wednesday, December 05, 2001 1:43 PM
+To:	Allen, Phillip K.; Belden, Tim
+Subject:	FW: West Position
+
+Attached is the Delta position for 1/16, 1/30, 6/19, 7/13, 9/21
+
+
+ -----Original Message-----
+From: 	Allen, Phillip K.  
+Sent:	Wednesday, December 05, 2001 6:41 AM
+To:	Dunton, Heather
+Subject:	RE: West Position
+
+Heather,
+
+This is exactly what we need.  Would it possible to add the prior day for each of the dates below to the pivot table.  In order to validate the curve shift on the dates below we also need the prior days ending positions.
+
+Thank you,
+
+Phillip Allen
+
+ -----Original Message-----
+From: 	Dunton, Heather  
+Sent:	Tuesday, December 04, 2001 3:12 PM
+To:	Belden, Tim; Allen, Phillip K.
+Cc:	Driscoll, Michael M.
+Subject:	West Position
+
+
+Attached is the Delta position for 1/18, 1/31, 6/20, 7/16, 9/24
+
+
+
+ << File: west_delta_pos.xls >> 
+
+Let me know if you have any questions.
+
+
+HeatherMessage-ID: <8802987.1075855377462.JavaMail.evans@thyme>
+Date: Mon, 10 Dec 2001 14:59:55 -0800 (PST)
+From: brad.jones@enron.com
+Subject: Gas P&L by day
+Cc: frank.hayden@enron.com, c..gossett@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: frank.hayden@enron.com, c..gossett@enron.com
+X-From: Jones, Brad </O=ENRON/OU=NA/CN=RECIPIENTS/CN=BJONES7>
+X-To: 'daniel.mcdonagh@chase.com', Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>, 'pallen70@hotmail.com'
+X-cc: Hayden, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fhayden>, Gossett, Jeffrey C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jgosset>
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+Attached is the information you have requested.
+
+Thanks,
+Brad Jones
+
+ Message-ID: <10326858.1075855377484.JavaMail.evans@thyme>
+Date: Mon, 10 Dec 2001 15:31:51 -0800 (PST)
+From: david.port@enron.com
+To: k..allen@enron.com
+Subject: FW: Gas P&L by day
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: Port, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DPORT>
+X-To: Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+Phillip
+My interpretation of this is that we made $1.2Bn total, half from new deals and the other half from reserve releases, and when you back out the prudency release you get back to zero net curve shift for 2001, which is what the original file had (approximately)
+Optics aren't good
+DP
+
+ -----Original Message-----
+From: 	Hayden, Frank  
+Sent:	Monday, December 10, 2001 5:22 PM
+To:	Port, David
+Subject:	FW: Gas P&L by day
+
+
+
+ -----Original Message-----
+From: 	Jones, Brad  
+Sent:	Monday, December 10, 2001 5:00 PM
+To:	'daniel.mcdonagh@chase.com'; Allen, Phillip K.; 'pallen70@hotmail.com'
+Cc:	Hayden, Frank; Gossett, Jeffrey C.
+Subject:	Gas P&L by day
+
+Attached is the information you have requested.
+
+Thanks,
+Brad Jones
+
+ Message-ID: <19990687.1075855377507.JavaMail.evans@thyme>
+Date: Tue, 11 Dec 2001 11:40:55 -0800 (PST)
+From: c..gossett@enron.com
+To: steven.l.allen@chase.com, daniel.mcdonagh@chase.com
+Subject: daily breakout...2000..2001
+Cc: k..allen@enron.com, kam.keiser@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: k..allen@enron.com, kam.keiser@enron.com
+X-From: Gossett, Jeffrey C. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JGOSSET>
+X-To: 'steven.l.allen@chase.com', 'daniel.mcdonagh@chase.com'
+X-cc: Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>, Keiser, Kam </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kkeiser>
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+FYI...The daily numbers for 2000 do not include middle market orig.  For 2001,  they are inclusive of middle market orig. Message-ID: <2952100.1075855377529.JavaMail.evans@thyme>
+Date: Mon, 17 Dec 2001 08:40:38 -0800 (PST)
+From: steven.matthews@ubspw.com
+To: k..allen@enron.com
+Subject: Phillip Allen Muni Bond Proposal.xls
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: "Matthews, Steven" <steven.matthews@ubspw.com>@ENRON
+X-To: Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+
+Phillip,
+
+This is the proposal for the 1mm laddered muni portfolio.  These bonds are
+currently in inventory.  Let me know what you think.
+
+Sincerely,
+
+Steve
+
+ <<Phillip Allen Muni Bond Proposal.xls>>
+
+******************************************************
+Notice Regarding Entry of Orders and Instructions:
+Please do not transmit orders and/or instructions
+regarding your UBSPaineWebber account(s) by e-mail.
+Orders and/or instructions transmitted by e-mail will
+not be accepted by UBSPaineWebber and UBSPaineWebber
+will not be responsible for carrying out such orders
+and/or instructions.
+
+Notice Regarding Privacy and Confidentiality:
+UBSPaineWebber reserves the right to monitor and
+review the content of all e-mail communications sent 
+and/or received by its employees.
+ - Phillip Allen Muni Bond Proposal.xls Message-ID: <22507094.1075855377554.JavaMail.evans@thyme>
+Date: Thu, 27 Dec 2001 14:58:02 -0800 (PST)
+From: louise.kitchen@enron.com
+To: tim.belden@enron.com, f..calger@enron.com, m..presto@enron.com, 
+	david.duran@enron.com, mitch.robinson@enron.com, 
+	david.forster@enron.com, mike.curry@enron.com, john.arnold@enron.com, 
+	s..shively@enron.com, rob.milnthorp@enron.com, 
+	john.zufferli@enron.com, laura.luce@enron.com, 
+	frank.vickers@enron.com, scott.neal@enron.com, 
+	fred.lagrasta@enron.com, c..aucoin@enron.com, d..steffes@enron.com, 
+	a..roberts@enron.com, mike.grigsby@enron.com, 
+	barry.tycholiz@enron.com, k..allen@enron.com, 
+	brian.redmond@enron.com, a..martin@enron.com
+Subject: Re-start/Integration Planning
+Cc: john.lavorato@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Bcc: john.lavorato@enron.com
+X-From: Kitchen, Louise </O=ENRON/OU=NA/CN=RECIPIENTS/CN=LKITCHEN>
+X-To: Belden, Tim </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tbelden>, Calger, Christopher F. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Ccalger>, Presto, Kevin M. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Kpresto>, Duran, W. David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Dduran>, Robinson, Mitch </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mrobins>, Forster, David </O=ENRON/OU=NA/CN=RECIPIENTS/CN=DFORSTER>, Curry, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mcurry>, Arnold, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jarnold>, Shively, Hunter S. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Hshivel>, Milnthorp, Rob </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Rmilnth>, Zufferli, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jzuffer>, Luce, Laura </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Lluce>, Vickers, Frank </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Fvicker>, Neal, Scott </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Sneal>, Lagrasta, Fred </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Flagras>, Aucoin, Berney C.  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Baucoin>, Steffes, James D. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Jsteffe>, Roberts, Mike A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mrobert>, Grigsby, Mike </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Mgrigsb>, Tycholiz, Barry </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Btychol>, Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Pallen>, Redmond, Brian </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Bredmon>, Martin, Thomas A. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=Tmartin>
+X-cc: Lavorato, John </O=ENRON/OU=NA/CN=RECIPIENTS/CN=JLAVORA>
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+We have for the last couple of weeks started to compile the Re-start/Integration Plans for Netco.  So far, we have primarily focussed on the mid/back plans where the technology requirements have been the driving factors.  Several plans are in the final stages of completion including:-
+
++	Infrastructure		Jenny Rub
++	Development		Jay Webb
++	EnronOnline		Webb / Forster
++	HR			David Oxley
++	Cash Management	Tom Myers
++	Credit			Debbie Brackett
+
+The rest will be completed shortly.
+
+We now need to focus on the commercial plans which have a slightly different focus. John and I would like to receive the plans "Re-start/Integration"  plans by January 7th, 2002 in order to go through them individually with each of you or in groups.  The focus should be to ensure that we have as much of the business up and running in the shortest time possible.  I have a suggested outline which you do not have to use but I thought it might help.  Please decide within yourselves the areas you will cover together or individually.
+
+Customer Side	
++	Customers		Phase  1 - First Week (eg top 10)
+				Phase  2 - First Month (eg top 50)
+				Phase  3 - First Quarter (eg top 100)
++	Action Plan		Phase  1 Customers
+				Phase  2 Customers
+				Phase  3 Customers
++	Contracts by customers (pre-prepared with credit terms etc)
++	Customer visit schedule
+
+Product Side
++	List of Products	Phase 1 - First Week
+				Phase 2 - First Month
+				Phase 3 - First Quarter
+
+Target Number of Transactions
++	Phase 1
++	Phase 2
++	Phase 3
+
+IT transfer 
+
+LouiseMessage-ID: <17633117.1075855377578.JavaMail.evans@thyme>
+Date: Sat, 29 Dec 2001 15:02:59 -0800 (PST)
+From: gthorse@about-cis.com
+To: pallen70@hotmail.com
+Subject: Bishops Corner
+Cc: k..allen@enron.com
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+Content-Transfer-Encoding: 7bit
+Bcc: k..allen@enron.com
+X-From: "Greg Thorse" <gthorse@about-cis.com>@ENRON
+X-To: pallen70@hotmail.com
+X-cc: Allen, Phillip K. </O=ENRON/OU=NA/CN=RECIPIENTS/CN=PALLEN>
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+Phillip;
+
+Could you please e-mail me the draw file you created for Bishops Corner.  I
+was working on submitting it to you and rather then recreate it I should
+just have you send it back to me to fill in the new draw totals.
+
+Also, I need the vendor payee list that you created for the Land and Soft
+costs. I need to re-format it by draw number and to the Bank One format, and
+again it would be easier to get it from you then to re-create it.
+
+Please take a look at the following summary and compare to your numbers to
+see if you agree.
+
+					Land And Soft Costs 	- 	Initial Draw	$	  1,608,683.05
+					Galaxy			-	Draw # 1	$	     250,000.00
+					Galaxy			-	Draw # 2	$	     223,259.09
+
+						Total Paid To Date Cash		$	  2,081,942.14
+
+					Project Cost					$	10,740,980.87
+					Loan Amount					$	  8,055,736.65
+
+					Equity Required				$	  2,685,244.22
+					Developer Profit					$	 (   326,202.57)
+
+						Balance Of Funding			$	  2,359,041.65
+
+						Total Paid To Date			$	  2,081,942.14
+
+						Balance To Fund Cash			$	     277,099.51
+
+
+					Galaxy			-	Draw # 3	$	     467,566.66
+
+						Bank One Draw # 1			$	     190,467.15
+						Final Cash Funding			$	     277,099.51
+
+
+I think you thought you had more to fund. However, I do not see that you
+accounted for the cash portion of the Developer fee that you paid CIS.  Am I
+looking at this right? Please let me know and attach? the files discussed
+above.  I am working all day Monday so I hope I can get it before then if
+possible.
+
+Thanks A Lot
+
+Greg Thorse
+
+
+
+
+Message-ID: <7059385.1075855377617.JavaMail.evans@thyme>
+Date: Sun, 30 Dec 2001 13:20:05 -0800 (PST)
+From: software@mail02.unitedmarketingstrategies.com
+To: pallen@enron.com
+Subject: PHILLIP, You've been selected to get FREE software from Sega, IBM,
+ Disney & may more...
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: software@mail02.unitedmarketingstrategies.com@ENRON
+X-To: pallen@enron.com
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+
+PHILLIP, Free Software now available to you from Sega, IBM, Disney,
+Simon & Schuster and many others!
+
+You have been selected to receive unlimited free software programs from the biggest
+publishers in the world. Click below to receive your free software programs today!
+
+Click here: http://www.freesoftwarepromotions.com/100012
+<a href="http://www.freesoftwarepromotions.com/100012">AOL Members Click Here</a>
+
+All titles are full-version, CD-ROMs (not shareware or demos) that are currently
+sold in retail outlets for as much as $50 each.
+
+Act today while supplies last!
+So hurry up and take advantage of this (almost) too-good-to-be-true offer
+by clicking on the link below!
+
+Yes, I want free software!
+Click here: http://www.freesoftwarepromotions.com/100012
+<a href="http://www.freesoftwarepromotions.com/100012">AOL Members Click Here</a>
+
+Brought to you by FreeSoftwarePromotions in conjunction with Sega TM,
+IBM TM, Simon & Schuster TM and Crayola TM.
+
+______________________________________________________________________
+Below are just a few of the 100's of titles that are ALL FREE!
+Visit our website to see more.
+
+American Heritage -History of the US
+Bodyworks 6.0
+Chessmaster 5500
+Compton's Complete - Interactive Cookbook
+Crayola Magic 3D Coloring
+Deer Avenger!
+Environmentally Safe Home
+Food Lover's Encyclopedia
+Future Cop - LAPD
+House Beautiful 3D -
+Interior Designer
+Inside the SAT & ACT
+Logic Quest
+Math Invaders
+Money Town
+Nuclear Strike
+Pink Panther
+Pizza Pilots
+Planetary Taxi
+Reader Rabbit
+Resumes That Work
+Road Rash
+Spellbound
+SEGA Rally Championship
+Simon & Schuster's New Millennium Encyclopedia
+Smithsonian: Total Amazon
+Think & Talk French
+Tom Clancy's SSN -
+Virtua Fighter
+Virtua Squad
+Virtual On Cybertrooper
+Webster's New World Dictionary & Thesaurus
+Weight Watcher's Light & Tasty Deluxe
+World Book
+Worldwide Soccer
+
+
+Click here: http://www.freesoftwarepromotions.com/100012
+<a href="http://www.freesoftwarepromotions.com/100012">AOL Members Click Here</a>
+
+_________________________________________________________________________
+PHILLIP, This email message may be a recurring mailing.
+If you would like to be removed from the United Marketing Strategies
+email announcement list, click on the link below (You may need to
+copy and paste the link into your browser)click below:
+http://mail01.unitedmarketingstrategies.com/remove/unsubscribe.html
+<a href="http://mail01.unitedmarketingstrategies.com/remove/unsubscribe.html">Remove</a>
+__________________________________________________________________________Message-ID: <32169781.1075855377639.JavaMail.evans@thyme>
+Date: Sun, 30 Dec 2001 18:33:29 -0800 (PST)
+From: unsubscribe-i@networkpromotion.com
+To: pallen@enron.com
+Subject: Too many to chose from - CD player, 2 way Radios, Pencam....
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ANSI_X3.4-1968
+Content-Transfer-Encoding: quoted-printable
+X-From: itsImazing <unsubscribe-i@networkpromotion.com>@ENRON
+X-To: PALLEN@ENRON.COM
+X-cc: 
+X-bcc: 
+X-Folder: \Phillip_Allen_Jan2002_1\Allen, Phillip K.\Inbox
+X-Origin: Allen-P
+X-FileName: pallen (Non-Privileged).pst
+
+[IMAGE]
+Get your FREE* Reward NOW!
+=09=09[IMAGE]=09
+=09PHILLIP, this is for REAL... one of America's largest Internet companies=
+ has granted you what may be an incredibly valuable reward.   There are 3 R=
+eward Groups... you get to select 1 FREE* REWARD valued at up to $100.00, a=
+bsolutely FREE.* They are as follows:   =09=09
+[IMAGE] (Choose one reward valued at up to $100.00) =09    =09=09
+=09=09=09
+=09=09 [IMAGE] HURRY!!! These valuable Rewards can be withdrawn at anytime =
+so make your selection now. Choose one of the three Reward groups: (1) a FR=
+EE* Hayo Portable CD Player, (2) 2 FREE* Motorola Talkabout Two-Way Radios,=
+ or (3) a FREE* Pen Cam Trio. Included with your FREE* REWARD you will be s=
+aving money on your long distance bill by signing up with Sprint 7? AnyTime=
+SM Online plan. This plan gives you 7? per minute state-to-state calling, w=
+ith no monthly fee**. Simply remain a customer for 90 days, complete the re=
+demption certificate you will receive by mail, and we will send you the FRE=
+E* REWARD that you have chosen above, for FREE*.         * Requires change =
+of state-to-state long distance carrier to Sprint, remaining a customer for=
+ 90 days and completion of redemption certificate sent  by mail. ** When yo=
+u select all online options such as online ordering, online bill payment, o=
+nline customer service and staying a Sprint customer, you reduce your month=
+ly reoccurring charge and save $5.95 every month. Promotion excludes curren=
+t Sprint customers.    =09
