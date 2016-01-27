@@ -1,13 +1,13 @@
 ----------------------------------------------------------------
-Tue Jan 05 00:36:34 EST 2016:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0152-1049-70bd-00002e353a78 
-on database directory /home/vahid/Github/DataScience/bigdata-platforms/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@53a237d4 
+Tue Jan 26 23:48:21 EST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-0152-8169-335b-0000308e4b80 
+on database directory /home/vahid/Github/DataScience/bigdata-platforms/metastore_db with class loader org.apache.spark.sql.hive.client.IsolatedClientLoader$$anon$1@9d953b 
 Loaded from file:/home/vahid/apps/spark/lib/spark-assembly-1.5.2-hadoop2.6.0.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.7.0_91-b02
 user.dir=/home/vahid/Github/DataScience/bigdata-platforms
 os.name=Linux
 os.arch=amd64
-os.version=3.19.0-42-generic
+os.version=3.19.0-47-generic
 derby.system.home=null
 Database Class Loader started - derby.database.classpath=''
