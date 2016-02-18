@@ -30,4 +30,26 @@ int Node::retrieve() const {
 Node *Node::next() const {
     return next_node;
 }
+
+
+/****** Class List ******/
+class List {
+    private:
+        Node *node;
+
+    public:
+        List();
+        ~List();
+
+
+        int size() const;
+        bool empty() const;
+        const int &  front() const;
+        Node *head() const;
+
+        void push_front(int n);
+        int pop_fron();
+}
+
+
 #endif
