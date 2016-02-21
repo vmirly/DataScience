@@ -11,7 +11,7 @@ class Node {
          Node(int = 0, Node * = nullptr);
 
          int retrieve() const;
-         Node *next() const();
+         Node *next() const;
 }
 
 
