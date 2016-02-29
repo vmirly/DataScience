@@ -1,0 +1,10 @@
+Finding the common editors from Wiki datasets:
+
+Guidlines:
+Reduce(Text Key, Iterable<Text> Values);
+
+Key(Article Name)
+
+
+Store the array as strings, not Text
+ArrayList<String> slist = 
