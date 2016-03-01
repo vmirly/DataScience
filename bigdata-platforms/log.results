@@ -1,0 +1,35 @@
+grunt> run execise12.pig;  
+grunt> data = LOAD 'grade.txt'
+>>        USING PigStorage(',')
+>>        AS (name:chararray, hw1:int, hw2:int, hw3:int);
+grunt> 
+grunt> describe data;
+data: {name: chararray,hw1: int,hw2: int,hw3: int}
+grunt> dump data;
+(john,26,29,30)
+(mary,27,25,35)
+(bill,19,22,25)
+(lee,25,25,25)
+grunt> 
+grunt> hw1 = FOREACH data GENERATE name, 'hw1', hw1;
+grunt> hw2 = FOREACH data GENERATE name, 'hw2', hw2;
+grunt> hw3 = FOREACH data GENERATE name, 'hw3', hw3;
+grunt> 
+grunt> grades = UNION hw1, hw2, hw3;
+grunt> grades_order = ORDER grades BY name ASC, $1 ASC;
+grunt> describe grades;
+grades: {name: chararray,chararray,hw1: int}
+grunt> 
+grunt> students = GROUP grades BY name;
+grunt> describe students;
+students: {group: chararray,grades: {(name: chararray,chararray,hw1: int)}}
+grunt> results = FOREACH students GENERATE group AS name,
+>> SUM(grades.$2)-MIN(grades.$2) AS high2;
+grunt> 
+grunt> describe results;
+results: {name: chararray,high2: long}
+grunt> dump results;
+(lee,50)
+(bill,47)
+(john,59)
+(mary,62)
