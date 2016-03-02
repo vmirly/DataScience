@@ -6,3 +6,6 @@ Data Science Terminologies
 
 
 **Platt Scaling**
+
+
+**Jacknifing**

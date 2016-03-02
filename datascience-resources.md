@@ -11,9 +11,15 @@
 ### Clustering
   * Vector Quantization: http://www.data-compression.com/vq.shtml 
   * Mean-shift clustering: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/TUZEL1/MeanShift.pdf
+  * Affinity Propagation, Clustering By Passing Messages: http://www.cs.columbia.edu/~delbert/docs/DDueck-thesis_small.pdf
 
 
 ## Datasets
 
   * Adult dataset: http://archive.ics.uci.edu/ml/datasets/Adult  
-  * 
+  *
+
+
+## Hadoop (Java)
+
+  * Customizing mapper and reducer: http://hadooptutorial.info/creating-custom-hadoop-writable-data-type/ 
