@@ -9,3 +9,6 @@ Data Science Terminologies
 
 
 **Jacknifing**
+
+
+**Fisher's Transformation**
