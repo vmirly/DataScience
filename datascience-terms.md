@@ -11,4 +11,8 @@ Data Science Terminologies
 **Jacknifing**
 
 
-**Fisher's Transformation**
+**Fisher Transformation**
+
+**Point Biserial**
+
+**ANOVA (Analysis of Variance)
