@@ -1,6 +1,12 @@
 Data Science Terminologies
 ==========
 
+**Geometric Mean**
+
+**Trimean (TM)**
+
+**Interquartile Mean (IQM)**
+
 
 **Fisher transformation**
 
