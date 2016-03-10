@@ -22,3 +22,5 @@ Data Science Terminologies
 **Point Biserial**
 
 **ANOVA (Analysis of Variance)
+
+**Weighted Least-Square Regression**

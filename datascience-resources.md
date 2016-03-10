@@ -14,6 +14,11 @@
   * Affinity Propagation, Clustering By Passing Messages: http://www.cs.columbia.edu/~delbert/docs/DDueck-thesis_small.pdf
 
 
+### Text Analysis
+
+  * Topic modeling: gensim https://radimrehurek.com/gensim
+
+
 ## Datasets
 
   * Adult dataset: http://archive.ics.uci.edu/ml/datasets/Adult  
