@@ -1,6 +1,8 @@
 Data Science Terminologies
 ==========
 
+**Low-pass filter** dealing with noise in time-series data (signals)
+
 **Geometric Mean**
 
 **Trimean (TM)**
