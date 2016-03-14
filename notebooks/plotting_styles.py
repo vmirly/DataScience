@@ -2,9 +2,10 @@ import matplotlib as mpl
 
 
 
-def set_plotting_style():
-    """ To set the default plotting style.
-       Adapted from PyPI: dautil
+def set_lightblueBGcolor():
+    """ To set the default plotting style
+        background color: light-blue
+        grid: dashed line, orange color
     """
     style = {'axes.axisbelow': True,
              'axes.facecolor': '#DADAF4',
