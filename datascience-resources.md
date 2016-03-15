@@ -2,6 +2,13 @@
 
 ## Learning Resources
 
+### Books
+
+  * Understanding Machine Learning, From Theory to Algorithms. Shai Shalev-Shwartz and Shai Ben-David
+
+
+###
+
   * Kernel Methods: http://kernel-methods.net  
   * Support Vectors: http://support-vector.net  
   * A collection of resources:  http://svms.org  
