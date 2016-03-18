@@ -22,6 +22,13 @@ int main() {
 
     cout << "size: " << mylist.size() << "   count(43): " << mylist.count(43) << endl;
 
+    mylist.display();
+
+    cout << "delete 5 ";
+    mylist.erase(5) ;
+    cout << mylist.size() << endl;
+    mylist.display();
+
     cout << "   Pop: " << endl;
     int size = mylist.size();
     for(int i=0; i< size; i++) {
