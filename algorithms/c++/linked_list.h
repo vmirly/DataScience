@@ -1,55 +1,125 @@
-#ifndef linkedlist_h
-#define linkedlist_h
+#ifndef LINKEDLIST_h
+#define LINKEDLIST_h
 
 #include<cstdlib>
 
+template<typename Type>
 class Node {
     private:
-         int element;
+         Type element;
          Node *next_node;
     public:
-         Node(int = 0, Node * = nullptr);
+         Node(Type = NULL, Node * = nullptr);
 
-         int retrieve() const;
+         Type retrieve() const;
          Node *next() const;
-}
+};
 
-
-Node::Node(int e, Node *n):
+template<typename Type>
+Node<Type>::Node(Type e, Node *n):
     element(e),
     next_node( n ) {
     //empty constructor
 }
 
-
-int Node::retrieve() const {
+template<typename Type>
+Type Node<Type>::retrieve() const {
     return element;
 }
 
-
-Node *Node::next() const {
+template<typename Type>
+Node<Type>* Node<Type>::next() const {
     return next_node;
 }
 
 
-/****** Class List ******/
-class List {
+/******************************/
+/****** Class LinkedList ******/
+template<typename Type>
+class LinkedList {
     private:
-        Node *node;
+        Node<Type> *list_head;
 
     public:
-        List();
-        ~List();
+        LinkedList();
+        //~List();
 
-
-        int size() const;
+        // Accessors
         bool empty() const;
-        const int &  front() const;
-        Node *head() const;
+        int size() const;
+        int count(Type) const;
+        Type front() const;
+        Node<Type> *head() const;
 
-        void push_front(int n);
-        int pop_fron();
+        // Mutators
+        void push_front(Type);
+        Type pop_front();
+        int erase(Type);
+};
+
+template<typename Type>
+LinkedList<Type>::LinkedList():
+    list_head(nullptr) {
+    // empty constructor
 }
 
+template<typename Type>
+bool LinkedList<Type>::empty() const {
+    return(list_head == nullptr);
+}
+
+template<typename Type>
+Node<Type>* LinkedList<Type>::head() const {
+    return list_head;
+}
+
+template<typename Type>
+Type LinkedList<Type>::front() const {
+    if (empty()) {
+       // 
+    }
+    return head()->retrieve();
+}
+
+// Mutators
+template<typename Type>
+void LinkedList<Type>::push_front(Type e) {
+    list_head = new Node<Type>(e, head());
+}
+
+
+template<typename Type>
+Type LinkedList<Type>::pop_front() {
+    if (empty()) {
+        // 
+    }
+
+    Type e = front();
+    Node<Type> *ptr = list_head;
+    list_head = list_head->next();
+    delete ptr;
+
+    return e;
+}
+
+
+template<typename Type>
+int LinkedList<Type>::size() const {
+    int n = 0;
+    for (Node<Type>* ptr=head(); ptr!=nullptr; ptr=ptr->next()) {
+        ++n;
+    }
+    return n;
+}
+
+
+template<typename Type>
+int LinkedList<Type>::count(Type e) const {
+    int n = 0;
+    for (Node<Type>*ptr = head(); ptr != nullptr; ptr=ptr->next()) {
+        if (ptr->retrieve() == e) n++;
+    }
+    return n;
+}
 
 #endif
