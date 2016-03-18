@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <iostream>
 #include <ctime>
-#include "linked_list.h"
+#include "mylinkedlist.h"
 
 
 using namespace std;
@@ -27,6 +27,13 @@ int main() {
     cout << "delete 5 ";
     mylist.erase(5) ;
     cout << mylist.size() << endl;
+    mylist.display();
+
+    cout << "front() " << mylist.front() ;
+    cout << "    back() " << mylist.tail()->retrieve() << endl;
+
+    cout << "Push_back(17): ";
+    mylist.push_back(17);
     mylist.display();
 
     cout << "   Pop: " << endl;
