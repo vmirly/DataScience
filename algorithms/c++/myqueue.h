@@ -1,11 +1,11 @@
-#ifndef MYSTACK_h
-#define MYSTACK_h
+#ifndef MYQUEUE_h
+#define MYQUEUE_h
 
 #include <cstdlib>
 #include "mylinkedlist.h"
 
 template<typename Type>
-class MyStack {
+class MyQueue {
     private:
         LinkedList<Type> list;
 
@@ -18,12 +18,12 @@ class MyStack {
 };
 
 template<typename Type>
-bool MyStack<Type>::empty() const {
+bool MyQueue<Type>::empty() const {
     return list.empty();
 }
 
 template<typename Type>
-Type MyStack<Type>::top() const {
+Type MyQueue<Type>::top() const {
     if (empty()) {
        //
     }
@@ -32,12 +32,12 @@ Type MyStack<Type>::top() const {
 
 
 template<typename Type>
-void MyStack<Type>::push(Type const & e) {
-    list.push_front(e);
+void MyQueue<Type>::push(Type const & e) {
+    list.push_back(e);
 }
 
 template<typename Type>
-Type MyStack<Type>::pop() {
+Type MyQueue<Type>::pop() {
     return list.pop_front();
 }
 

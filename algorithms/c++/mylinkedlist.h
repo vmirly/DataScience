@@ -56,6 +56,7 @@ class LinkedList {
         int size() const;
         int count(Type) const;
         Type front() const;
+        Type back() const;
         Node<Type> *head() const;
         Node<Type> *tail() const;
         void display() const;
@@ -97,6 +98,14 @@ Type LinkedList<Type>::front() const {
     return head()->retrieve();
 }
 
+template<typename Type>
+Type LinkedList<Type>::back() const {
+    if (empty()) {
+
+    }
+    return tail()->retrieve();
+}
+
 // Mutators
 template<typename Type>
 void LinkedList<Type>::push_front(Type e) {
@@ -111,8 +120,15 @@ void LinkedList<Type>::push_front(Type e) {
 template<typename Type>
 void LinkedList<Type>::push_back(Type e) {
     Node<Type>*ptr = tail();
-    list_tail = new Node<Type>(e, nullptr);
-    ptr->setnext(list_tail);
+    Node<Type> *node = new Node<Type>(e, nullptr);
+    if(empty()) {
+        list_head = node;
+    }
+    list_tail = node;
+
+    if (ptr != nullptr) {
+        ptr->setnext(list_tail);
+    }
 }
 
 
