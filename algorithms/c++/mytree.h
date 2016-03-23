@@ -29,8 +29,9 @@ class SimpleTree {
 
 
         // tree traversal algorithms
-        void depth_first_traversal();
-        void breath_first_traversal();
+        void depth_first_traversal() const;
+        void breath_first_traversal() const;
+        void print_hierarchy(int) const;
 };
 
 template<typename Type>
@@ -132,7 +133,7 @@ void SimpleTree<Type>::detach() {
 
 
 template<typename Type>
-void SimpleTree<Type>::depth_first_traversal() {
+void SimpleTree<Type>::depth_first_traversal() const {
     for (Node<SimpleTree *> *ptr = _children.head();
          ptr != nullptr;
          ptr = ptr->next()) {
@@ -143,7 +144,7 @@ void SimpleTree<Type>::depth_first_traversal() {
 
 
 template<typename Type>
-void SimpleTree<Type>::breath_first_traversal() {
+void SimpleTree<Type>::breath_first_traversal() const {
     std::cout << _element << " ";
     for (Node<SimpleTree *> *ptr = _children.head();
          ptr != nullptr;
@@ -152,4 +153,21 @@ void SimpleTree<Type>::breath_first_traversal() {
     }
 }
 
+void print_spaces(int n) {
+    for(int i=0; i<n; ++i) {
+        std::cout << "-";
+    }
+}
+
+
+template<typename Type>
+void SimpleTree<Type>::print_hierarchy(int level) const {
+    print_spaces(level);
+    std::cout << _element << std::endl;
+    for (Node<SimpleTree *> *ptr = _children.head();
+         ptr != nullptr;
+         ptr = ptr->next() ) {
+        ptr->retrieve()->print_hierarchy(level + 1);
+    }
+}
 #endif

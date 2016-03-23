@@ -29,5 +29,8 @@ int main() {
 
 
     tree.depth_first_traversal(); cout<<endl;
-    tree.breath_first_traversal(); cout<<endl;
+    tree.breath_first_traversal(); cout<<endl << endl;
+
+    tree.print_hierarchy(0);
 }
+
