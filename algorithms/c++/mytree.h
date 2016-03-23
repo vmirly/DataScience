@@ -26,6 +26,11 @@ class SimpleTree {
         void insert(Type const &);
         void attach(SimpleTree *);
         void detach();
+
+
+        // tree traversal algorithms
+        void depth_first_traversal();
+        void breath_first_traversal();
 };
 
 template<typename Type>
@@ -123,6 +128,28 @@ void SimpleTree<Type>::detach() {
     }
     parent()->_children.erase(this);
     _parent = nullptr;
+}
+
+
+template<typename Type>
+void SimpleTree<Type>::depth_first_traversal() {
+    for (Node<SimpleTree *> *ptr = _children.head();
+         ptr != nullptr;
+         ptr = ptr->next()) {
+        ptr->retrieve()->depth_first_traversal();
+    }
+    std::cout << _element << " ";
+}
+
+
+template<typename Type>
+void SimpleTree<Type>::breath_first_traversal() {
+    std::cout << _element << " ";
+    for (Node<SimpleTree *> *ptr = _children.head();
+         ptr != nullptr;
+         ptr = ptr->next()) {
+        ptr->retrieve()->breath_first_traversal();
+    }
 }
 
 #endif

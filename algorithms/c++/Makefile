@@ -1,14 +1,12 @@
 CPPFLAGS=-std=c++11 -g -O3
 
 
-Sort: main_list.o main_stack.o main_queue.o main_deque.o main_tree.o \
-      main_treetravers.o
+Sort: main_list.o main_stack.o main_queue.o main_deque.o main_tree.o 
 	g++ main_list.o -o runlist
 	g++ main_stack.o -o runstack
 	g++ main_queue.o -o runqueue
 	g++ main_deque.o -o rundeque
 	g++ main_tree.o -o runtree
-	g++ main_treetraverse.o -o runtreetraverse
 
 main_list.o: main_list.cpp
 	g++ $(CPPFLAGS) -c main_list.cpp
@@ -24,9 +22,6 @@ main_deque.o: main_deque.cpp
 
 main_tree.o: main_tree.cpp
 	g++ $(CPPFLAGS) -c main_tree.cpp
-
-main_tree.o: main_treetraverse.cpp
-	g++ $(CPPFLAGS) -c main_treetraverse.cpp
 
 clean:
 	rm *.o -f
