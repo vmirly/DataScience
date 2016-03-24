@@ -26,8 +26,9 @@ class BinaryNode {
         void clear(BinaryNode *&);
 
         // tree traversal algorithms
-        void depth_first_traversal() const;
-        void breath_first_traversal() const;
+        void pre_order_traversal() const;
+        void post_order_traversal() const;
+        void in_order_traversal() const;
         void print(int) const;
 };
 
@@ -76,6 +77,19 @@ template<typename Type>
 int BinaryNode<Type>::height() const {
     return isempty() ? -1 :
         1 + std::max(left()->height(), right()->height())
+}
+
+// traversals
+
+template<typename Type>
+void BinaryNode<Type>::in_order_traversal() const {
+    if (isempty()) {
+        return;
+    }
+
+    left()->in_order_traversal();
+    std::cout << retrieve() << " ";
+    right()->in_order_traversal();
 }
 
 
