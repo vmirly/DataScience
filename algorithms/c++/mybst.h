@@ -17,13 +17,18 @@ class BinarySearchTree {
             }
         };
 
-        TreeNode *root;
+        TreeNode *root = nullptr;
 
     public:
 
        BinarySearchTree();
+
+       void displayInOrder();
+       void displayInOrder(TreeNode *);
+
        void insert(Comparable);
-       void insert(TreeNode *&, Comparable);
+       void insert(Comparable, TreeNode *&);
+
 };
 
 
@@ -33,24 +38,41 @@ BinarySearchTree<Comparable>::BinarySearchTree() {
 }
 
 template<typename Comparable>
-void BinarySearchTree<Comparable>::insert(TreeNode * &tree, Comparable value) {
+void BinarySearchTree<Comparable>::insert(Comparable value, TreeNode * &tree) {
     if (!tree) {
         tree = new TreeNode(value, nullptr, nullptr);
+        std::cout << "inserted " << value << std::endl;
         return;
     }
 
-    if (tree->_element < value) 
-        insert(tree->_left, value);
-    else if(tree->_element > value) 
-        insert(tree->_right, value);
+    if (value < tree->_element) 
+        insert(value, tree->_left);
+    else if(value > tree->_element) 
+        insert(value, tree->_right);
     else
         ; // duplicate value: do nothing
+
 }
 
 
 template<typename Comparable>
 void BinarySearchTree<Comparable>::insert(Comparable value) {
-    insert(root, value);
+    insert(value, root);
+}
+
+
+template<typename Comparable>
+void BinarySearchTree<Comparable>::displayInOrder(TreeNode *tree) {
+    if (tree) {
+        displayInOrder(tree->_left);
+        std::cout << tree->_element << " ";
+        displayInOrder(tree->_right);
+    }
+}
+
+template<typename Comparable>
+void BinarySearchTree<Comparable>::displayInOrder() {
+    displayInOrder(root);
 }
 
 #endif
