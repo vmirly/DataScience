@@ -1,0 +1,306 @@
+,timestamp,tweet
+0,2015-08-03 21:45:12,RT @aficionado: Loving @webscriptio by @smarx. Just built an API monitor in a couple of hours https://t.co/BJfspsUmeJ http://t.co/iF9XtBoBQU
+1,2015-08-03 00:15:37,RT @indizen_insight: When Data Cleaning Meets Crowdsourcing https://t.co/E7UqJSwDcW #datascience via @DiegoKuonen @bigdata @amplab http://t…
+2,2015-06-03 17:49:09,"US economy adds 295,000 jobs in February http://t.co/SqkatWaqnl"
+3,2015-06-03 16:44:37,RT @DiegoKuonen: MT @larrykim: Great stuff @robhof ― Eye tracking study reveals how we read #Google results: http://t.co/vIXRi1AHAl http://…
+4,2015-06-03 13:04:45,"RT @ndiakopoulos: Folks asking for my slides on text visualization at #NICAR15, here they are: http://t.co/kfqbTBzjI6"
+5,2015-06-03 12:56:12,Google Stanford use deep learning for drug discovery http://t.co/DYaVj9tGob #datascience #MachineLearning http://t.co/OzcA74dAUR
+6,2015-05-03 15:16:07,RT @rasbt: @halflings Maybe it is useful: I have a little convenience function to plot 2D dec. regions: http://t.co/eF5vsh4iLH http://t.co/…
+7,2015-05-03 15:14:30,"RT @github: What do GitHub, Google, Twitter, and Microsoft have in common? We're all speaking at Git Merge. http://t.co/gQMZiu92xb"
+8,2015-04-03 17:03:47,"RT @KirkDBorne: Future of #DataScience = #LinkedData (Smart Data) Mining &amp; Analysis &lt;&gt; ('All the world is a graph', Shakespeare?) http://t.…"
+9,2015-02-03 04:17:28,RT @rasbt: 'Design critique' A great how-to-make-an-effective-graphic post by @randal_olson http://t.co/p5Mu10Idx7 http://t.co/3QU3o7Kehi
+10,2015-01-03 17:33:21,"RT @rasbt: 'Machine Learning Done Wrong' - some useful advice for the practitioner! Maybe old had, but still worth mentioning: http://t.co/…"
+11,2015-28-02 19:31:32,@rasbt Regularized logistic regression with cross-validation to choose regularizer parameter  http://t.co/moUWXwsgu2 http://t.co/0HKURnUsgN
+12,2015-28-02 14:15:25,"@rasbt I was implementing a logistic regression, and had convergence issues! Then I remembered your hint on normalization, so thanks! :)"
+13,2015-28-02 01:09:55,RT @AngelaZutavern: The history of #machinelearning from the inside out http://t.co/jCKM1teZgP #datascience #bigdata http://t.co/APB1nKNfyq
+14,2015-27-02 05:11:17,"Amazing TED talk: impressive visualization of child survival, family size &amp; GDP in world #datascience #statistics http://t.co/Ko3gDMoU50"
+15,2015-27-02 02:09:29,"#python Optimizing Python in the Real World: NumPy, Numba, and the NUFFT (Fast Fourier Transformation) by @jakevdp https://t.co/6m8eOvhmDd"
+16,2015-26-02 23:58:38,#datascience #python Understanding users through Twitter data and #machinelearning http://t.co/guepzwPCM7 http://t.co/k9GyeaLtUc
+17,2015-24-02 03:19:42,RT @rasbt: I'd like to conclude my weekend studies with this ;) 'A Deep Learning Tutorial: From Perceptrons to Deep Networks' http://t.co/i…
+18,2015-22-02 18:54:31,"@rasbt Effective research using @IPythonDev This way, I will know the results and how to repeat the analyses #python http://t.co/g3lZsIHk5U"
+19,2015-21-02 20:55:48,"@rasbt @miha_jlo yeah, we will submit to another related conference soon! But too bad to miss KDD!!"
+20,2015-21-02 20:27:31,@rasbt @miha_jlo yeah I couldn't make it! :(
+21,2015-21-02 12:33:34,"“@ArnoCandel: Check out the H2O #DeepLearning booklet: https://t.co/3CxJ7F1XyI
+@h2oai #datascience http://t.co/fDmwbUzJGt”"
+22,2015-21-02 12:27:57,RT @freakonometrics: RT @ismat: What a stunning shot of the ice surrounding NYC during today's frigid temps. http://t.co/DhSgA1VAsF
+23,2015-20-02 05:34:16,Baidu’s Andrew Ng (who made thousands into #DataScience) on Deep Learning and Innovation in Silicon Valley http://t.co/2TVl8rH0yh via @WSJD
+24,2015-19-02 21:50:06,@randal_olson @rasbt @nvenkataraman1 There is one in R: library(arule) and very straight-forward to use! :) http://t.co/C2k0XjSGkR
+25,2015-19-02 17:28:33,K-means clustering of US senators based on their votes: democrats partitioned into 2 clusters #DataScience #python http://t.co/jiFNXSYW7N
+26,2015-18-02 21:17:35,#machinelearning #datascience Generative vs. Discriminative models! Which one is better? http://t.co/mzMev9KpLo
+27,2015-17-02 13:11:09,@inancgumus @rasbt There is a penalty for model complexity ln det (I + phi^T phi) which http://t.co/ywWzJ48KnS
+28,2015-17-02 12:57:01,"@inancgumus @rasbt Bayesian model selection estimates marginal likelihood Pr(D|M) by integrating over a family of models, without splitting"
+29,2015-16-02 23:15:30,@rasbt lets train a regression with 25 samples! Then we test our models on much larger dataset and compare! We'll learn something new!
+30,2015-16-02 23:11:31,"@rasbt in my opinion, it matters a lot when you have a small dataset! We should compare them and see what's better! I will use Bayesian! ;)"
+31,2015-16-02 13:16:43,10 #machinelearning lessons from Netflix Data and models are great. But the right evaluation approach is even better http://t.co/Z3ePWiEDco
+32,2015-15-02 04:00:37,@rasbt Yeah! I think we can make a deep discussion on this topic! ;)
+33,2015-15-02 01:01:37,"@GeneticSequence Cool! I love R! In this kNN classification, I varied k=1..N, and LOO-CrossValidation, without any 'for-loop'! :)"
+34,2015-15-02 00:55:19,@rasbt The advantage is that you can use the entire dataset to train your model which at the end will generalize better! More data is better
+35,2015-14-02 19:57:49,Speeding up kNN classifier with k-d tree nearest neighbour search in #R package #RANN  #datascience #machinelearning http://t.co/63ggxne0xX
+36,2015-14-02 18:08:46,Writing a short kNN classifier in #R with Leave-One-Out CrossValidaton to find the optimal K  #datascience http://t.co/N9gfq0saNj
+37,2015-14-02 13:37:34,@rasbt #Bayesian model selection allows you to use all the #data for training (no cross-validation) and still estimate the accuracy!
+38,2015-12-02 14:26:07,RT @rasbt: Slides of my little seminar today 'Intro. to Supervised Machine Learning and Pattern Classification': http://t.co/CpGwkAyCR9 via…
+39,2015-12-02 01:36:43,Bayesian learning in regression: update the parameter distn. after any new sample point #datascience #statistics http://t.co/qUtzoS9OXZ
+40,2015-05-02 16:49:13,Step by step working with text data (NLP) in #Python #DataScience #MachineLearning http://t.co/MKigxOC3gg http://t.co/AbIwcGIGkT
+41,2015-04-02 00:08:38,RT @rasbt: 'Visualizing DBSCAN Clustering' -- That's so cool (btw. my fav. Swiss Army knife clust. algo) http://t.co/pm8llLC2KY http://t.co…
+42,2015-02-02 03:07:00,Spatial Clustering using #DBSCAN and graph connected components #MachineLearning #DataScience http://t.co/cwpswxrd0p http://t.co/2o9vZQhkxK
+43,2015-01-02 03:18:35,"RT @kdnuggets: Good list of #MachineLearning Resources, #DeepLearning, Graphical Models, Ensemble Methods ... http://t.co/3q44n4KLtT http:/…"
+44,2015-31-01 15:19:01,Always discard the first n/e candidates to maximize the #probability of finding the best one http://t.co/lAEWWZI9Ey http://t.co/8PGFAY8X22
+45,2015-31-01 15:05:09,"RT @kdnuggets: #DeepLearning Lessons: Not only Google can do it, it needs #BigData, not based on the brain http://t.co/bBmMMh7yre http://t.…"
+46,2015-30-01 04:44:58,"@partiallyd Since you've been comparing R &amp; Python, clustering a dataset w/ #DBSCAN in R took 78sec, and scikit-learn 1186 sec! Cheers to R!"
+47,2015-29-01 17:10:25,"RT @kdd_news: Watch #kdd2014 talks and videos! @kdd_news #kdd2015
+http://t.co/QEBh6FDkEo"
+48,2015-27-01 18:02:59,RT @mjcavaretta: MT @vmirly: A tutorial for using #DeepLearning fo facial key-point detection on #kaggle http://t.co/Tf1sM61Pax #machinelea…
+49,2015-27-01 01:13:40,RT @jtoy: deep learning reading list http://t.co/RaoASoGwSM
+50,2015-26-01 20:16:58,"RT @DebuggingData: Probabilistic Techniques, Data Streams and Online Learning http://t.co/bUG7uX2W8v"
+51,2015-26-01 20:15:41,Practical #datascience  in #python  http://t.co/IiWOGglbRh
+52,2015-24-01 20:54:53,#Probability Distn. of sum of independet discrete random numbers (S_n) obtained using convolution of probabilities http://t.co/a13TsQxzQE
+53,2015-24-01 20:33:40,RT @acohenNY: http://t.co/vNCSbZb0wy
+54,2015-24-01 18:30:19,RT @rasbt: @vmirly as unsupervised learning &amp; clustering guy I thought you might like this article.  http://t.co/w3Ml3m0tb1
+55,2015-24-01 18:30:16,@rasbt nice article! Thanks
+56,2015-22-01 22:49:16,"In regression analysis, the expected loss can be decomposed into three parts: E(L)= bias^2 + variance + noise"
+57,2015-19-01 22:18:23,@rasbt Its amazing how using probability techniques my expected value matches with the mean of experiment values http://t.co/ErhxXUdcsz
+58,2015-19-01 16:17:24,@rasbt Final solution: having 2 positive test results will increase the chance of having the disease 90 folds as expected intuitively!
+59,2015-19-01 15:20:30,"@rasbt i.e. P(++|ill)~B(2,p) with p=success rate! But I will solve this to see if repeating a test would increase the confidence or not!"
+60,2015-19-01 15:11:41,@rasbt We want P(ill|++)? Which according to #bayesian is P(++|ill)*P(ill)/P(++) and I can use binomial distribution with 2 Bernoulli trials
+61,2015-19-01 14:51:15,"@rasbt yeah! Assuming that the test is iid, so basically you repeat the test twice and intuitively I would expect to get more confident"
+62,2015-19-01 14:41:30,@rasbt we have a prior P(ill) and likelihood P(+|ill) and P(+|healthy)! Now we want posterior probability P(ill|++)
+63,2015-19-01 14:38:56,"RT @syvylyze: #RegressionAnalysis using #R explained!
+#DataScience #DataScientist #Statistics 
+http://t.co/GzOYt3FWTi http://t.co/XxHm4rzVs5"
+64,2015-19-01 14:05:06,@rasbt so probability of getting positive in a test for an ill person is 0.99! If we repeat the test twice and both cases we get + result
+65,2015-19-01 14:02:44,"@rasbt sorry for confusion, I didn't mean the evidence term! I meant if we observe a test multiple times"
+66,2015-19-01 05:44:24,"In #bayesian theory having a fixed prior and conditional probability, how does repeating an evidence would chage the posterior probability?"
+67,2015-17-01 23:32:44,"@rasbt nice job! Those kind of unlucky situations are rare, so as along as you have good predictions you net outcome will be positive! :)"
+68,2015-15-01 19:37:28,A tutorial for using #DeepLearning fo facial key-point detection on #kaggle http://t.co/rybSeJdOJJ
+69,2015-13-01 21:28:03,RT @GMcareersDonna: Most popular data science skills  http://t.co/Kjm0qzhtPS #datascience #bigdata #informationtechnology
+70,2015-13-01 00:01:19,"RT @IBMPureSystems: With the right data warehouse appliance, #bigdata doesn't have to be hard. Here's 2 reasons customers love #PureData ht…"
+71,2015-11-01 07:22:18,A support vector method for #clustering #MachineLearning http://t.co/IVrHuSEKUy http://t.co/5n4Jhc8d7r
+72,2015-11-01 06:47:44,"RT @pythontrending: dataset - Easy-to-use data handling for SQL data stores in Python with support for implicit table creation, bulk ... ht…"
+73,2015-09-01 02:52:10,"Interesting tricks for efficient programming in #Python from dictionaries, lists to collections http://t.co/vYqm8CsVbz"
+74,2015-09-01 02:09:29,RT @ryansweb: Data flow for deep neural network by @nvidia using #NVIDIADRIVE &amp; @GPUComputing. Coming soon to every car... http://t.co/tg2E…
+75,2015-08-01 18:47:59,Map your #twitter followers by http://t.co/qBD3Evq1Ts @RandalScottKing
+76,2015-05-01 22:50:23,@rasbt looks great!
+77,2015-05-01 22:50:10,"RT @rasbt: @vmirly hach, I am so excited about my latest #Regression model for #soccer #predictions . Look at that! http://t.co/9LDv6PBd1p"
+78,2015-05-01 04:24:06,"RT @WSJ: From the Uber of X to personal assistant apps, here are tech trends to watch in 2015: http://t.co/0GUs3lvBcQ http://t.co/YL4F20TsWT"
+79,2015-04-01 05:52:15,"Really nice informative visualization comparing social networks @GeneticSequence: Twitter: Idle, Browse, or Chat? http://t.co/axHiLmf1W6”"
+80,2015-03-01 06:26:14,"RT @rasbt: @vmirly u were looking for #Python BeautifulSoup ex., right? My notebook how I scrape the web for #PremierLeague data http://t.c…"
+81,2015-03-01 02:49:22,"RT @rasbt: 'TalkingMachines: a new podcast featuring interviews with Geoff Hinton, Yann Lecun, Yoshua Bengio ...!' Perfect!! http://t.co/H9…"
+82,2015-03-01 02:44:06,RT @prokopp: Yay! @Hortonworks Data Platform (HDP) 2.2 sandbox is available (http://t.co/Qoqztas0ji). Good for testing/hacking #Hadoop in t…
+83,2015-02-01 23:42:25,@rasbt awesome! I would love to have your feedback when you use it
+84,2015-02-01 22:36:31,@rasbt The first #clustering analysis using #valclust! Comparing histograms of intra and inter cluster distances! http://t.co/Zn1ZG00RGW
+85,2015-02-01 22:08:58,@rasbt good start in 2015! :)
+86,2015-02-01 22:05:03,"@rasbt cool! Great job! What method did you use? SVM, naive Bayes or deep learning?"
+87,2015-02-01 00:54:19,#DataScience #machinelearning Building Language Detector via Scikit-Learn http://t.co/2Zwl8tzi1I http://t.co/0IVoUAk7xi
+88,2015-01-01 19:35:37,"RT @randal_olson: China's population, 1990-2050. #dataviz
+
+Source: http://t.co/zRXooMYhL7 http://t.co/M2MzIlAKBZ"
+89,2015-01-01 16:04:57,RT @HEPfeickert: A nice no BS overview. RT @chiochia: A statistician's view on #bigdata and #DataScience by @DiegoKuonen. Nice read. http:/…
+90,2014-31-12 06:07:46,RT @JohnAlexWelch: Cluster #Analysis of the @NFL’s Top Wide Receivers  http://t.co/jlvZoigfsA #data #sports
+91,2014-29-12 01:32:57,RT @prokopp: Data matters. Algorithms less. @mhausenblas at #hadoopsummit http://t.co/Cj1sl5bLdO
+92,2014-29-12 00:46:19,ROC score of 90% in sentiment analysis of movie reviews using multinomial naive Bayes #MachineLearning #DataScience https://t.co/kbQGpofWHX
+93,2014-28-12 23:55:46,RT @Ayasdi: Topological Data Analysis: A Framework for Machine Learning http://t.co/T4rcNUpufl #bigdata #topology http://t.co/vpv2HcMzSH
+94,2014-27-12 14:03:42,"RT @JPRRNews: Chemiresistive Sensor, Odor Classification http://t.co/irkZKxCEEP #security #bigdata #patternrecognition #safety http://t.co/…"
+95,2014-26-12 03:29:05,#DataScience Data mining the 'hottest skills of 2014' according to LinkedIn http://t.co/bbmSBoBsDp
+96,2014-25-12 23:47:39,@rasbt interesting! Which model? Bernoulli or multinominal?
+97,2014-25-12 23:05:51,Simpler #R coding with pipes  the present and future of the magrittr package http://t.co/tBo7WAq9Gu
+98,2014-25-12 22:58:31,"Interview with Yann Lecun, Facebook at Data Driven NYC about #deeplearning // Dec 2014: http://t.co/Yq6kucTLOe"
+99,2014-25-12 22:16:50,About 2% of electricity is used by datacenters! #bigdata http://t.co/WgLCbwWcAA via @datacentretech
+100,2014-25-12 19:12:45,@rasbt oh yeah! This is good data to optimize my #classifier! Thanks
+101,2014-25-12 18:12:33,"@rasbt yes, great hands on experience with a real world application of #datascience"
+102,2014-25-12 17:32:03,@rabt Merry Xmas made by #R! Let's see what #matplotlib can make! :D http://t.co/bOqyYMp1A4
+103,2014-25-12 17:28:32,RT @RLangTip: #rstats A couple of R Merry Christmas wishes! http://t.co/E2pnLyotWN and http://t.co/iT0vaWz2Fq
+104,2014-25-12 17:24:01,RT @KirkDBorne: National #DataScience Bowl - let the data scientist games begin! May the odds be ever in your favor. http://t.co/ofuph5NbRo…
+105,2014-25-12 17:17:53,@rasbt I made my first submission for IMDB movie reviews #classification NB and got 0.788 #Machinelearning #kaggle http://t.co/aNZQyf4JLn
+106,2014-25-12 06:47:58,Some useful tricks to speed up #pandas calculations for large datasets by @rasbt http://t.co/0PIAaIOycX #python #bigdata
+107,2014-25-12 01:12:18,@rasbt Merry Christmas to you too my friend!
+108,2014-25-12 01:09:26,"RT @rasbt: @vmirly An honest comment from an R user 'Life Is Short, Use Python' ;) http://t.co/egxqSVF7DO"
+109,2014-24-12 22:30:08,@rasbt music mood #classifier is working very well! I checked 'Last Christmas by Taylor Swift' which is classified as sad!
+110,2014-24-12 14:25:53,“@startupml: interpreting random forests http://t.co/Mkh1BscqZR #machinelearning http://t.co/dwF0qrEDOp”
+111,2014-24-12 14:23:33,"RT @rasbt: The Cost of Healthy Eating: https://t.co/WiPr1b8XQ1 via @plotlygraphs No, I don't let it discourage me! http://t.co/F7LJKvSWuh"
+112,2014-24-12 02:34:07,RT @bigdataconf: 8 big trends in #bigdata #analytics #7 : Deep Learning http://t.co/Y0CpLLSbJR #datascience #machinelearning
+113,2014-23-12 21:24:33,"RT @rasbt: @vmirly Also regarding my sports prediction models: “Information is the oil of the 21st century, and analytics is the combustion…"
+114,2014-23-12 02:33:19,“@pickover: For you math nerds. A mysterious &amp; wonderful proof that pi=4. At which step does it go wrong? http://t.co/n1KZEvanYE”
+115,2014-22-12 22:39:58,RT @DeepLearningHub: IBM detects skin cancer more quickly with visual machine learning (Cognitive Computing) http://t.co/SfRdFKOe36
+116,2014-22-12 22:13:55,"“@analyticbridge: More than 100 #datascience, analytics, #bigdata, visualization books: http://t.co/TffBt33QPX”"
+117,2014-22-12 21:52:36,RT @shaheedsr: The percentage of female students entering university in #Iran declined 13%+ after gender-rationing policies applied http://…
+118,2014-22-12 21:44:16,#DataScience Large Scale Deep Learning by #Google http://t.co/qWdwcyV7IT http://t.co/FTkk9hBYmJ
+119,2014-22-12 21:32:37,RT @rasbt: The 'Top 30 #Python Projects In GitHub' - a nice collection to browse through over the holidays! http://t.co/qKrbf8Sgxz
+120,2014-22-12 21:32:11,RT @vijaypande: New blog post: Support from NVIDIA's Compute the Cure via Folding@home: I'm happy to announce that ... http://t.co/en5b2Yge…
+121,2014-22-12 14:02:10,RT @rasbt: Sounds like @AndrewYNg is having a good time at Baidu! Congrats! 'Breakthrough In Speech Recognition[...]' http://t.co/4y2vfwyg2J
+122,2014-20-12 16:19:23,#datascience podcast Episode 5: The Remarkably Sober One http://t.co/24Cn0o9NfC
+123,2014-20-12 16:14:24,Google Research Blog: Automatically making sense of #data http://t.co/bECyyEAcWi via @googleresearch
+124,2014-20-12 15:56:35,RT @sqlpros: From Data to Operationalized ML in 60 Minutes - Machine Learning - TechNet Blogs http://t.co/lERObSBUvw #sql #sqlserver #ML #M…
+125,2014-20-12 14:12:11,RT @mbnsolutions: #data is the new #oil - #bigdata http://t.co/SXLJVWcfnw
+126,2014-20-12 01:24:12,RT @DaveRubal: '@KirkDBorne: 4 main languages for #Analytics #DataMining #DataScience: http://t.co/GTpfkCa0ke @kdnuggets #BigData http://t.…
+127,2014-19-12 02:00:56,#datascience #machinelearning - Facebook offers solution to end drunken posts; classify drunk from sober pictures http://t.co/40KgvpkuW7
+128,2014-18-12 16:52:47,The Top Mistakes Developers Make When Using Python for #bigdata Analytics http://t.co/xArjsejNPk via @airpair
+129,2014-17-12 22:59:30,@AwahidTweets @rasbt Subspace #clustering can then be used to address high dimensional data: http://t.co/fxOvC8vn3n
+130,2014-17-12 22:58:27,@AwahidTweets @rasbt The issue with #clustering high-dimensional data is that the feature space becomes sparse (same is true for text)
+131,2014-16-12 03:29:07,@rasbt I am curious to see how would LDA/MDA performs on these spiral shaped data #datascience http://t.co/rmOslA3hHj
+132,2014-16-12 02:37:48,@rasbt here is my growing gallery of synthetic datasets for testing #clustering #datascience http://t.co/q1Uh7QXGbT http://t.co/JjIQqRsqgD
+133,2014-14-12 20:41:27,RT @gjreda: Want to learn #python's pandas? Good news: video of my #pydata talk is up. Bad news: have to listen to me for 75 min. http://t.…
+134,2014-13-12 03:52:57,Scientists See Promise in Deep-Learning Programs http://t.co/BgOWS3brzn
+135,2014-12-12 01:19:18,"@gigaom: Interview with Hortonworks CEO, 'Hadoop is ready to explode in 2015'. http://t.co/sPhND4hm62 @derrickharris http://t.co/a3zdD12Mo1"
+136,2014-11-12 23:45:42,“@thoughtworks: Check out the Data Science Ontology #bigData #DataScience http://t.co/AVwqG69DX1 http://t.co/3B6sqPpSS9”
+137,2014-11-12 16:51:34,"RT @rasbt: Now, my colleagues just asked me to give a short talk about my MusicMood classifier: http://t.co/TYxFCmtDzm via @SlideShare"
+138,2014-11-12 16:36:55,Chap8 basic cluster_analysis http://t.co/890rbTVmDw via @SlideShare
+139,2014-11-12 04:23:57,Clustering on database systems rkm #clustering #databases http://t.co/W9Syl6WYjU via @SlideShare
+140,2014-10-12 16:30:59,"@rasbt yes, it was a picture showing different joins! I got it from  @JarrobaWeb http://t.co/Dk13Lttmpf"
+141,2014-10-12 03:08:21,RT @freitasmanuel: '@JarrobaWeb: La vital diferencia entre JOINs de SQL. http://t.co/V6PpSNmxwL'
+142,2014-10-12 03:07:53,RT @freitasmanuel @JarrobaWeb a nice cheat sheet for different join operation in SQL
+143,2014-10-12 01:23:49,RT @mappingBIGdata: Wearing Your Intelligence: How to Apply Artificial Intelligence in Wearables and IoT: http://t.co/oA8eCOdAog
+144,2014-08-12 19:49:06,"RT @randal_olson: The most popular athletes in the world, as revealed by social media. #dataviz
+
+Source: http://t.co/iLcPPh2cH9 http://t.co…"
+145,2014-08-12 02:24:40,"@rasbt DBSCAN is more robust, but for #bigdata, KMeans is O(N) whereas DBSCAN is O(n log(n))! So variants of KMeans may work better"
+146,2014-08-12 02:15:21,@rasbt effect of updating the cluster centroids in KMeans: comparing the results after one pass over all the data http://t.co/olprs1Xcmd
+147,2014-05-12 17:41:33,@rasbt it's cool! But the light source doesn't move as I rotate the protein!
+148,2014-05-12 17:40:46,"RT @rasbt: Chemview: 3D Chemistry for IPython Notebook (PDB files), that's really useful for the protein scientist @vmirly http://t.co/nFfc…"
+149,2014-03-12 18:28:47,"@rasbt thanks my friend! You can be proud for the top 2 ranks, for both MSU and Germany :)"
+150,2014-03-12 18:16:01,"@rasbt Result of Protein Structure Refinement (a world-wide competition) http://t.co/kn4r3teFJD
+1 @MSU 2 Germany 3. Purdue"
+151,2014-01-12 13:49:04,RT @DiegoKuonen: RT @lisachwinter: The Data Science Skills Network http://t.co/joIjDFmdUE via @DataconomyMedia #datascience http://t.co/gzp…
+152,2014-29-11 06:39:33,@rasbt I like that conversion of your time-line to a word cloud. I will generate mine soon! :)
+153,2014-29-11 06:29:25,RT @rasbt: @vmirly works seamlessly btw! I just tested it today to convert an IPython notebook (word cloud) to a website post: http://t.co/…
+154,2014-29-11 06:27:20,Bayesian thinking: update your belief after any new observation! http://t.co/Pt7ShpuZbG
+155,2014-29-11 04:50:33,@rasbt that's useful! What are the other options for --template? I should try and find out
+156,2014-28-11 23:15:41,RT @sciam: How high can the world population grow? http://t.co/8JMxvy1dv3 #science http://t.co/rFP25qkeCg
+157,2014-28-11 23:02:46,"RT @rasbt: A short overview about 'How to quickly turn an IPython notebook into a blog post', useful @vmirly? http://t.co/OUmr7jnpSr"
+158,2014-28-11 17:23:46,Interactive map in #plotly: https://t.co/jD4N46OwI8 via @plotlygraphs
+159,2014-28-11 16:03:15,Importing or directly plotting geographic plots to #plotly interactive plots using #python http://t.co/JBTMIquiRv
+160,2014-28-11 06:42:41,"A great resource for Bayesian Methods: 
+https://t.co/OruYHc9C3T http://t.co/VhFqhIgi72"
+161,2014-28-11 06:34:28,Amazing visualization of influencers of key people using Wikipedia http://t.co/UDzGQFVG56
+162,2014-27-11 13:44:57,Read and share this inspiring #immigration story #BuiltByImmigrants http://t.co/WDhQ2zlZqi via @FWD_us
+163,2014-26-11 04:46:12,RT @rasbt: 'Why Programmers work at night' - I guess I am at equilibrium ;) @vmirly http://t.co/MY71Qsql58
+164,2014-25-11 22:50:36,@rasbt thanks buddy! I won't forget how much you helped through my presentations and asking scientific questions!
+165,2014-25-11 20:29:50,"The PhD defense went well! Thanks to all my friends specially @rasbt for your support! Now time to focus on fun stuff, ml and data science!"
+166,2014-23-11 17:20:42,"@jk1rk @rasbt yes, you can easily install it via 'pip install prophet'"
+167,2014-23-11 00:54:13,RT @rasbt: Prophet – A financial micro-framework in Python. Check this out @vmirly http://t.co/FYh1QNccwh
+168,2014-20-11 05:52:27,Making beautiful figures in plotly: https://t.co/DHaplZEw6s via @plotlygraphs http://t.co/eaHszk7bdx
+169,2014-20-11 03:46:13,RT @jtoy: Deep Visual-Semantic Alignments for Generating Image Descriptions http://t.co/Y66vL3ahXw
+170,2014-14-11 13:43:54,A great talk today from #Google on #MachineLearning in CSE department at #MSU
+171,2014-14-11 02:53:41,@rasbt How expensive is raw data? 3000$ to get data for just one patient such as cardiac output from a hospital!
+172,2014-11-11 14:26:59,"RT @DAragonGraham: 'If you don't build your #dream, someone else will hire you to help them build theirs.' Dhirubhai Ambani"
+173,2014-11-11 01:21:00,"@rasbt @vmirly: @rasbt ok! Then I guess the standard is to include ', and' :)"
+174,2014-10-11 18:37:00,@rasbt @zapjackson What is the advantage over all comma delimited version? Just to know what is the last column?
+175,2014-10-11 05:21:15,"RT @rasbt: Just had to help a colleague with clustering. Well,now there is a #Python how-to IPython nb ;) http://t.co/kmjrCA5Ulh http://t.c…"
+176,2014-10-11 05:16:00,RT @rasbt: A pretty neat way to visualize Nobel prizes by country and field! http://t.co/hKkH5sGswX http://t.co/VjeYfVY2S1
+177,2014-27-10 22:06:49,RT @rasbt: Awesome implementation of a novel 'Density peak clustering algorithm' in Python by @vmirly http://t.co/zP6tKt6Jc8 http://t.co/d7…
+178,2014-26-10 00:30:26,RT @javalder: Getting Started with Apache Hadoop #Dzone #Refcardz http://t.co/jOX9i95VPg
+179,2014-22-10 21:16:58,RT @rasbt: The 'data science process': everything tarts and ends with the 'real world' (from: 'Doing data science') http://t.co/7dPGpBuRH7
+180,2014-22-10 16:06:41,Connect with the Right people http://t.co/qxUCjf0TOW via @unfollowersme
+181,2014-19-10 02:21:19,@rasbt cool! :)
+182,2014-19-10 02:20:58,RT @rasbt: @vmirly http://t.co/ozODPWMtL7 http://t.co/WLj8hQ6q6p
+183,2014-16-10 20:38:16,Querying wikipedia networks in #Python with package networkx to handle network data:  http://t.co/xmxf3r0kES
+184,2014-12-10 02:11:23,"RT @rasbt: A gem for protein scientists (@vmirly): ProDy, Protein Dynamics &amp; Sequence Analysis via Python http://t.co/0YgaTMG5VW http://t.c…"
+185,2014-09-10 16:36:39,Creating a database of daily prices of recent S&amp;P 500 companies using #python http://t.co/kHi7jSj3WF
+186,2014-03-10 00:10:16,Bayesian models in R: http://t.co/Zie02sAjcj
+187,2014-30-09 04:27:06,@rasbt 33 great resources and articles found on the web http://t.co/42UtQPBC9g Our collaborative projects should also appear here!
+188,2014-30-09 02:00:35,A free online book for R-developers: http://t.co/SGV6zkGWU1
+189,2014-28-09 13:34:53,@eB2B_Cloud thanks!
+190,2014-27-09 03:02:18,Win FREE copies of the 13 BEST Python books (giveaway) http://t.co/RUts2eLKXs via @PyImageSearch
+191,2014-24-09 02:06:41,data scientsts at facebook: The formation of love  http://t.co/kkOjA5BXoc http://t.co/Sn35BHSZe6
+192,2014-22-09 17:05:53,RT @rasbt: Little add-on for clarification: 'The effect of scaling and mean centering of variables prior to a PCA' (@vmirly) http://t.co/aC…
+193,2014-19-09 17:41:32,RT @rasbt: Kernel tricks and nonlinear dimensionality reduction via RBF kernel PCA (in #Python) http://t.co/mYEk74mtgS http://t.co/pu7WlwO8…
+194,2014-19-09 16:24:14,RT @BDataScientist: Bayes Factors and p-values for independent t-tests via #datascience #stats http://t.co/jhk61YC2Pc
+195,2014-19-09 16:22:50,"RT @randal_olson: How Scotland voted, council by council. #indyref #ScotlandDecides #dataviz 
+
+Source: http://t.co/pkvu1qgdbl http://t.co/f…"
+196,2014-19-09 03:27:15,Using data science to build better products http://t.co/Ni7scbK8vU via @yhathq
+197,2014-18-09 18:58:49,"Mapr Webinar: Future of Hadoop Analytics: Total Data Warehouses and Self-Service Data Exploration
+https://t.co/HBwtvjNWIx"
+198,2014-06-09 01:50:07,@rasbt nice! No more issues with unwanted whitening transformation :)
+199,2014-06-09 00:45:45,"RT @rasbt: scikit-learn 0.15.2 is out! Yeah, and the LDA transform is finally fixed :) http://t.co/Ozquw2xC2p (@vmirly) http://t.co/Ozquw2x…"
+200,2014-06-09 00:45:45,"RT @rasbt: scikit-learn 0.15.2 is out! Yeah, and the LDA transform is finally fixed :) http://t.co/Ozquw2xC2p (@vmirly) http://t.co/Ozquw2x…"
+201,2014-04-09 16:39:18,Writing NoSQL in python: http://t.co/OUBNZsjGab
+202,2014-01-09 17:59:43,"I love Dropbox because it's so convinient! I can access my files anywhere, from any computer! https://t.co/332COhY6TK"
+203,2014-31-08 18:29:58,RT @TheEconomist: How big is Africa really? Much bigger than it looks on most maps http://t.co/5H5yEz7c2j http://t.co/s14Te9FePM
+204,2014-30-08 12:28:48,RT @freakonometrics: 'On Machine Learning' http://t.co/GfHb5ObiY3 by @bugraa ht @josephmisiti
+205,2014-25-08 14:30:16,RT @MangoTheCat: A Statistician's View on Big Data and Data Science #bigdata #dataminer http://t.co/miBAJtrfnm via @SlideShare
+206,2014-22-08 03:04:35,A review of classification techniques http://t.co/MTRq9SibuI
+207,2014-22-08 02:15:05,@rasbt Solving the world's toughest problems using data science http://t.co/qVFbzLxWZN
+208,2014-22-08 01:37:07,RT @rasbt: Data is beautiful: neat charts about different pronunciations in the US  https://t.co/KabVZ4PaGI http://t.co/ErIxeV9Cuo
+209,2014-20-08 17:08:26,RT @rasbt: @vmirly: sounds like that's an interesting course starting end of September: 'Mining Massive Datasets' https://t.co/TgUsbMeh67
+210,2014-20-08 17:08:22,@rasbt excellent course! I will take it
+211,2014-18-08 13:27:15,"For Big-Data Scientists, ‘Janitor Work’ Is Key Hurdle to Insights http://t.co/5GJhJLUeaH"
+212,2014-14-08 18:04:41,seaborn: statistical data visualization Python Visualization Library http://t.co/mKM5WLtH6w http://t.co/jx462bNxyc
+213,2014-14-08 17:15:54,Data Science Toolbox - Start doing data science in minutes http://t.co/7MTESZhK2N via @DataSciToolbox
+214,2014-12-08 21:31:03,"RT @Stanford: Congratulations to Prof. Maryam Mirzakhani, first female recipient of the #FieldsMedal: http://t.co/OAT05AGLS1 http://t.co/uD…"
+215,2014-12-08 21:29:49,RT @plotlygraphs: How much time do you spend online? Check these global averages with data from @globalwebindex https://t.co/VXzYmfYY5d htt…
+216,2014-12-08 21:27:46,RT @YhatHQ: Parallel Machine Learning with scikit-learn and IPython | https://t.co/MkhMLDOgVj
+217,2014-08-08 14:35:59,"@rasbt when it reaches 100, we should celebrate! :)"
+218,2014-08-08 02:40:12,@rasbt faster + more memory efficient
+219,2014-08-08 02:39:46,"@rasbt so for reading large datasets into R, it's faster to specify the types of each column in advance. How do you do that in python?"
+220,2014-07-08 18:52:17,"Ah, gmail attach buttom is not working!"
+221,2014-07-08 18:51:45,@rasbt @jamesaeddy The idea of ggplot (grammer of graphics) is very nice though! but I would prefer the base plotting package
+222,2014-06-08 18:42:08,My first interactive plot made by R-ggplot2: https://t.co/TJ8YnYnnpt via @plotlygraphs
+223,2014-05-08 14:56:45,RT @rasbt: @vmirly: looks like I found our next-weekend-read “@freakonometrics: 'A Survey of Clustering Data Mining Techniques' http://t.co…
+224,2014-05-08 14:56:29,@rasbt @freakonometrics nice survey article! I'll put it in my to do list
+225,2014-05-08 14:49:24,"RT @jamesaeddy: .@rasbt @vmirly @YhatHQ Great list! Though dplyr &gt; plyr. For that matter, just append the list w/ https://t.co/UWxYLU2Odm -…"
+226,2014-04-08 16:38:58,RT @rasbt: The follow-up to my PCA article: Linear Discriminant Analysis bit by bit (in #Python of course)http://t.co/SbtLszwSmC http://t.c…
+227,2014-03-08 01:46:41,"RT @rasbt: 'Why Most Unit Testing is Waste' - you know that I am a big unit testing fan, but here are some interesting thoughts: http://t.c…"
+228,2014-03-08 01:41:48,Halloween statistics jokes: http://t.co/2Q0G2M1Tdl
+229,2014-03-08 01:37:31,http://t.co/mP1YEbYLoZ
+230,2014-01-08 13:54:39,"RT @rasbt: . @vmirly, you are the R guy, here are '10 R packages [you] wish [you] knew about earlier' http://t.co/BKalx03uUz"
+231,2014-01-08 00:00:54,RT @rasbt: Here are a few suggestions for 'Styling your #Python #matplotlib plots for publication' http://t.co/aAYyUEHKjB http://t.co/RcrMe…
+232,2014-31-07 23:58:55,RT @Sibellgul: Ha ha start your day with a laughter. We #TurkishWomen are #lol to @bulent_arinc. #direnkahkaha #direnkadin #kahkaha http://…
+233,2014-31-07 15:33:18,RT @PythonWeekly: An exploratory statistical analysis of the 2014 World Cup Final http://t.co/t55yCffn45 #python #pandas #numpy #matplotlib…
+234,2014-31-07 15:30:24,RT @rasbt: Many barplots could be replaced by more informative boxplots.Here are few #matplotlib how-tos: http://t.co/dQli3tGKOd http://t.c…
+235,2014-31-07 15:28:35,RT @rasbt: .@vmirly talking about WC and stats: “@PythonWeekly: An exploratory statistical analysis of the 2014 World Cup Final http://t.co…
+236,2014-30-07 01:54:48,@rasbt Twitter price increased 30% after earning announcement today! Thanks to #WorldCup and Germany's great victory! http://t.co/EZChfXppju
+237,2014-25-07 17:01:15,"@rasbt A data scientist is a better programmer than a statistician, and knows more statistics than a computer scientist!"
+238,2014-25-07 16:52:53,"RT @rasbt: fancy, transparent legends in matplotlib via: 
+leg=plt.legend(fancybox=True);
+leg.get_frame().set_alpha(0.5) http://t.co/4eHHFu6…"
+239,2014-25-07 16:52:24,"RT @rasbt: Added a whole new section on the effect of standardization for PCA and machine learning:
+http://t.co/x8SMZLTpfs http://t.co/urYE…"
+240,2014-15-07 13:34:39,RT @RevolutionR: . @IEEESpectrum ranks #R as no. 9 on its most popular languages list http://t.co/Isd7kqMukm via the blog
+241,2014-09-07 15:37:01,RT @analyticbridge: #DataScience Dictionary: http://t.co/ZTScuGKqEy
+242,2014-09-07 14:25:35,@coolbutuseless @rasbt   I am implementing this algorithm in an ipython notebook http://t.co/jqj5dlVQmE   it will be done by this weekend
+243,2014-07-07 20:41:47,A clustering algorithm based on finding density peaks: http://t.co/1LVbsSSU6e
+244,2014-07-07 20:09:22,RT @rasbt: Automatic Soccer Highlights Compilations With Python http://t.co/1eVRkQ6IZj
+245,2014-07-07 18:42:12,RT @mapr: Download this free ebook! Practical Machine Learning - A New Look at Anomaly Detection  https://t.co/KzCYNLCIDz
+246,2014-07-07 13:50:26,RT @rasbt: Getting &amp; Cleaning Data from External Sources in R via @vmirly http://t.co/3C92UNBQze
+247,2014-05-07 15:42:44,"RT @MesutOzil1088: Neymar, i am unhappy. get well soon."
+248,2014-05-07 15:34:53,"#WorldCup2014 has no joy without #Neymar dancing with the ball
+http://t.co/jRg3jyTfdB"
+249,2014-01-07 14:48:38,RT @pnatarajanmd: Great #matplotlib overview by @randal_olson for #datavisualization with #python http://t.co/OgBcdt6ygv #dataviz #bioinfor…
+250,2014-27-06 03:20:28,"RT @rasbt: 'What is the difference between Artificial Intelligence, machine learning, statistics, and data mining' http://t.co/nOdA054w3c"
+251,2014-27-06 03:14:54,"#corpseflower at #MSU: they had to take care of the plant for 4 years, to have it blossom for 24 hours: http://t.co/P4VDeFU85y"
+252,2014-24-06 03:28:06,RT @gvanrossum: Yay! PyPy3! http://t.co/2zsMuqRMCC
+253,2014-22-06 13:52:48,Clustering genomic sequences using edit-distance with #R and #python http://t.co/5DdE34XcLn
+254,2014-19-06 22:50:49,Predicting #WorldCup2014 results with #python  http://t.co/iVh7oDY6C0
+255,2014-18-06 14:16:34,RT @rasbt: 'Nice datasets for #python practice parsing and using JSON:  http://t.co/pkeMj5wM68' some toys for you @vmirly
+256,2014-17-06 20:39:49,"New technology: image processing to aid referees
+http://t.co/Zpm25XypSh"
+257,2014-13-06 21:39:23,RT @pleia2: Ubuntu 14.04 at the @HP booth at @texaslinuxfest http://t.co/4nCN8OfgOU
+258,2014-13-06 00:00:20,RT @rasbt: @vmirly Python Weekly - Issue 143: markdown-toclify and the Numpy-Matlab-Julia-R matrix cheat sheet ;) http://t.co/H6NY5TYi0X
+259,2014-12-06 23:59:07,"@rasbt yup, I saw that! Thanks! but in your tutorial you didn't mention this :::python thing!! :)"
+260,2014-12-06 21:42:35,RT @freakonometrics: 'The World Cup and Economics 2014' http://t.co/IZ7km5LhYl see (among many others) http://t.co/N5yA8pGRBJ
+261,2014-12-06 21:42:19,"@rasbt So, do you know why my python code using pygmentize is not highlghted? http://t.co/bsOqwByHY9"
+262,2014-11-06 02:51:32,@rasbt Here are all the worldcup matches for Germany:  :) http://t.co/CNeJxQA7HR
+263,2014-11-06 02:25:05,"@rasbt Me too! In order to catch up with World Cup, I am trying to parse FIFA website into R and follow the matches:) http://t.co/zAtqG3kwVd"
+264,2014-09-06 21:29:13,The Big in Big Data relates to importance not size! http://t.co/XIE5F6vEse
+265,2014-09-06 16:19:14,RT @rasbt: Just done putting together 'Diving deep into Python - the not-so-obvious language parts' - now with ~50 % new stuff! http://t.co…
+266,2014-07-06 00:43:38,Data Science in Wearable Computing: http://t.co/yqBixkDNpD
+267,2014-06-06 20:16:17,pairwise edit-distance:  http://t.co/Tfc5CPmW3B
+268,2014-06-06 14:19:11,http://t.co/K98Pxnukta
+269,2014-04-06 03:25:51,"@rasbt Oh yeah, that's a very nice notebook!"
+270,2014-03-06 00:42:45,RT @AnalyticsChap: Da·ta Sci·en·tist [noun]: Person who is better at Statistics than a Software Engineer and better at Software Engineering…
+271,2014-03-06 00:39:28,"@raybesiga @rasbt And specifically for data analysis, numpy and scipy are extremely useful"
+272,2014-03-06 00:37:55,"@raybesiga @rasbt If you need a good resource to learn python in general, I would recommend this http://t.co/HGohY5Tv9h"
+273,2014-01-06 03:10:59,"@rasbt yes, I joined python weekly to read your articles :)"
+274,2014-31-05 12:37:20,"RT @rasbt: @hwmrocker @chengh Compiling it really gave the regexpr a large boost, but it is still not the fastest :) phew http://t.co/b09gn…"
+275,2014-30-05 19:03:33,"I've signed up for Python Weekly, a weekly newsletter with all the latest #Python news http://t.co/1YzxyOZvOC"
+276,2014-27-05 03:43:32,Application of Kernel PCA to separate two classes (implementation in numpy): http://t.co/Pt35smUrjm
+277,2014-12-05 16:23:12,@ga_braganca You should install these libraries for R. The istallation is provided in this github page: https://t.co/41JQk1OtwE
+278,2014-12-05 00:57:23,"R Kernel for iPython: a nice way to publish R scripts, and data analysis codes: http://t.co/hOFAuG7qVA"
+279,2014-05-05 23:27:17,"For Today’s Graduate, Just One Word: Statistics: http://t.co/cRxT79vyKJ"
+280,2014-05-05 23:05:09,My Focus performance is in the top 20%.  @fitbrains  http://t.co/MAZ3IDNJfi
+281,2014-04-05 00:58:09,I have finished an online offering of #dbclass! http://t.co/9TqDb5thzO
+282,2014-30-04 01:38:00,My Focus performance is in the top 30%.  @fitbrains  http://t.co/ECtbkaa4zq
+283,2014-23-04 00:32:25,RT @overlyhnstmthds: Postdoc: 'I've been doing my experiments wrong this whole time. At least my stupidity is statistically significant...'…
+284,2014-08-04 02:04:01,Maximum Likelihood Estimation of the covariance matrix: using inverse matrix makes the calculations much simpler http://t.co/o39hzor7Rk
+285,2014-06-04 14:32:27,Experiencing how cool ipython is? Now I feel I should have started using ipython much earlier in my education. http://t.co/o39hzor7Rk
+286,2013-09-10 14:00:01,"This year Nobel Peace Prize winners in chemistry are researchers in computational chemistry and molecular dynamics! Karplus, Levitt, Warshel"
