@@ -1,0 +1,4 @@
+
+
+### V.M. 
+This is a set of python scripts to create and manage a data-base system using SQLite3 package

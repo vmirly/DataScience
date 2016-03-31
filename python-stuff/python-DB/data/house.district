@@ -1,0 +1,14 @@
+district_table
+id  ds1 deg1 ds2 deg2
+INT VARCHAR(20) REAL VARCHAR(20) REAL
+1 north 1.0 east 0.2
+2 south 1.0 south 1.0
+3 west 1.0 south_west 0.4
+4 north_west 1.0 north 0.4
+5 south_west 1.0 south_west 1.0
+6 east 1.0 north 0.1
+7 north_east 1.0 north_east 1.0
+8 west 1.0 south 0.1
+9 north 1.0 north_east 0.6
+10 north 1.0 north 1.0
+11 west 1.0 north_west 0.7

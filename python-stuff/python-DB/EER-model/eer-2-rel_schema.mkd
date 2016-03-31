@@ -1,0 +1,123 @@
+Mapping EER model to Relational Schema
+===============
+
+**Vahid Mirjalili**  
+**09/16/2014**
+
+# Summary of EER Model
+
+Entity Types:
+
+ * Players
+ * Teams --> NFL Teams
+ * Games
+ * Stadium
+
+Weak Entity Types:
+
+ * Dependents
+
+N-M relations:
+
+ * PlayerGames
+ * PTG
+
+*Note:* we use the same table for the parent/child entity types.
+
+
+------------
+
+# 1. Tables for Entity Types
+
+### Players:  
+  * **attributes:**   
+    <u>Pid</u> INT primary key, Ph_number int, 
+    Name varchar2, City varchar2, 
+    Salary REAL,  
+    Avg_score1 REAL, Avg_score2 REAL *(derived attributes)*
+
+  * **Foreign Keys:**  
+    Tid *(for PlayesFor relation)*
+    
+    
+```
+  Players (Pid, Ph_number, Name, City, Salary, Avg_score1, Avg_score2, Tid)
+```
+         
+            
+### Teams:  
+  * ** attributes:**  
+    <u>Tid</u> INT primary key, Name varchar2, 
+    City varchar2, 
+    Avg_score3 REAL *(derived attribute)*  
+    Manager varchar2
+    
+  * ** Foreign keys: **  
+  
+```
+   Teams (Tid, Name, City, Avg_score3, Manager)
+```
+    
+### Stadium:
+  * **attributes:**  
+    <u>Sid</u> INT primary key, City varchar2
+
+  * ** Foreign keys: **  
+    Tid *NOT NULL* *(refernce to Teams table)*  
+
+```
+   Stadium (Sid, City, Tid)
+```
+    
+### Games:  
+  * ** attributes:**  
+    <u>Gid</u> INT primary key, G_Name varchar2, Score INT
+    
+  * **Foreign keys:**  
+    Sid INT  *(reference to Stadium table)*  
+    Tid1 INT, Tid2 int *(reference to Teams table)*  
+
+```
+   Games (Gid, G_Name, Score, Sid, Tid1, Tid2)
+```
+    
+### Dependents:
+  * **Primary key:**   <u>(Pid, Dep_name)</u>  
+
+```
+   Dependents (Pid, Dep_name)
+```
+------------   
+
+## 2. Tables for Multiple-valued Attributes
+
+### Contracts: 
+  * **Primary key:**  <u>(Pid, Phone_number)</u>
+    
+```
+   Contacts (Pid, Phone_number)
+```
+----------
+
+# 3. Tables for Relations
+
+### PlayerGames:  
+  * **Primary Keys:**  <u>(Pid, Gid)</u>  
+  *Pid and Gid reference to Players and Games tables, respectively*
+
+  * **Attributes:**  
+    PGscore INT
+
+```
+   PlayerGames (Pid, Gid, PGscore)
+```
+
+### PTG:  
+  * **Primary Keys:**  <u>(Pid, Tid, Gid)</u>  
+    
+  * **Attributes:**  
+    Score INT
+    
+```
+   PTG (Pid, Tid, Gid, Score)
+```

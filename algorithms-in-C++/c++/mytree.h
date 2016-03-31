@@ -155,7 +155,7 @@ void SimpleTree<Type>::breath_first_traversal() const {
 
 void print_spaces(int n) {
     for(int i=0; i<n; ++i) {
-        std::cout << "-";
+        std::cout << "\t";
     }
 }
 
@@ -163,7 +163,7 @@ void print_spaces(int n) {
 template<typename Type>
 void SimpleTree<Type>::print_hierarchy(int level) const {
     print_spaces(level);
-    std::cout << _element << std::endl;
+    std::cout << _element << "\\" << std::endl;
     for (Node<SimpleTree *> *ptr = _children.head();
          ptr != nullptr;
          ptr = ptr->next() ) {
