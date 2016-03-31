@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( erode_dilate )
+find_package( OpenCV REQUIRED )
+add_executable( erode_dilate erode_dilate.cpp )
+add_executable( morphTransform morphTransform.cpp )
+target_link_libraries( erode_dilate ${OpenCV_LIBS} )
+target_link_libraries( morphTransform ${OpenCV_LIBS} )

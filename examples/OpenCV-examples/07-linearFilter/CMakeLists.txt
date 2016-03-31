@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( LinearFiltering )
+find_package( OpenCV REQUIRED )
+add_executable( linear_filter linear_filter.cpp )
+target_link_libraries( linear_filter ${OpenCV_LIBS} )

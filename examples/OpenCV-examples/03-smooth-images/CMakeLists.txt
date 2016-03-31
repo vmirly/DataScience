@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( smoothing )
+find_package( OpenCV REQUIRED )
+add_executable( smoothen smoothen.cpp )
+add_executable( gblur gaussian_blur.cpp )
+target_link_libraries( smoothen ${OpenCV_LIBS} )
+target_link_libraries( gblur ${OpenCV_LIBS} )
