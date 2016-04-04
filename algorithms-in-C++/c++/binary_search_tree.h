@@ -33,6 +33,7 @@ class CTree{
                 int depth() const;
                 Node* find(const T&) const;
                 void pre_order_traversal(std::ostream &) const;
+                void breath_first_traversal(Node *) const;
                 void insert(const T&, Node *&);
                 void erase(const T&, Node *&);
         };
@@ -198,7 +199,7 @@ int CTree<T>::GetDepth() {
 
 template<class T>
 void CTree<T>::LevelOrderTraverse() {
-
+    root()->breath_first_traversal(root());
 }
 
 
@@ -260,13 +261,27 @@ class Queue {
         List<T> *list;
     public:
         Queue() {list = new List<T>;}
+        bool isempty() const {return list->isempty();}
         void push(const T & e) { list->push_back(e); }
         T pop() { return list->pop_front(); }
         
 };
 
 
+/* Breath First Traversal */
+template<class T>
+void CTree<T>::Node::breath_first_traversal(Node * root) const {
+    Queue<CTree<T>::Node *> q;
+    q.push(root);
 
+    while (!q.isempty()) {
+        Node *node = q.pop();
+        std::cout << node->retrieve() << " ";
+        if (!node->left()->isempty()) q.push(node->left());
+        if (!node->right()->isempty()) q.push(node->right()); 
+    }
 
+    std::cout << std::endl;
+}
 
 #endif // !CTREE_H
