@@ -1,21 +1,22 @@
 
 
-## Learning Resources
+# Learning Resources
 
 ### Books
 
   * Understanding Machine Learning, From Theory to Algorithms. Shai Shalev-Shwartz and Shai Ben-David
 
 
-###
+### Concepts in Machine Learning Concepts
 
   * Kernel Methods: http://kernel-methods.net  
   * Support Vectors: http://support-vector.net  
-  * A collection of resources:  http://svms.org  
+  * A collection of resources or SVM:  http://svms.org  
   * Everythong you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
 
 
 ### Clustering
+
   * Vector Quantization: http://www.data-compression.com/vq.shtml 
   * Mean-shift clustering: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/TUZEL1/MeanShift.pdf
   * Affinity Propagation, Clustering By Passing Messages: http://www.cs.columbia.edu/~delbert/docs/DDueck-thesis_small.pdf
@@ -29,7 +30,18 @@
 ### Time-series data
 
   * Fourier Transformation http://www.thefouriertransform.com
-  * iBuilding Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
+
+### Hadoop (Java)
+
+  * Customizing mapper and reducer: http://hadooptutorial.info/creating-custom-hadoop-writable-data-type/
+
+
+# Tools and Softwares
+
+  * Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
+
+
+--------------
 
 ## Datasets
 
@@ -41,7 +53,3 @@
 
 
 
-
-## Hadoop (Java)
-
-  * Customizing mapper and reducer: http://hadooptutorial.info/creating-custom-hadoop-writable-data-type/ 
