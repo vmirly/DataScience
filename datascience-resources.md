@@ -26,6 +26,11 @@
   * Topic modeling: gensim https://radimrehurek.com/gensim
 
 
+### Time-series data
+
+  * Fourier Transformation http://www.thefouriertransform.com
+  * iBuilding Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
+
 ## Datasets
 
   * MNIST (handwritten digits) dataset: http://yann.lecun.com/exdb/mnist/
