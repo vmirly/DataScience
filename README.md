@@ -7,7 +7,7 @@
   * Understanding Machine Learning, From Theory to Algorithms. Shai Shalev-Shwartz and Shai Ben-David
 
 
-### Concepts in Machine Learning Concepts
+### Concepts in Machine Learning
 
   * Kernel Methods: http://kernel-methods.net  
   * Support Vectors: http://support-vector.net  
@@ -15,7 +15,7 @@
   * Everythong you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
 
 
-### Clustering
+### Data Clustering
 
   * Vector Quantization: http://www.data-compression.com/vq.shtml 
   * Mean-shift clustering: http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/TUZEL1/MeanShift.pdf
@@ -36,12 +36,14 @@
   * Customizing mapper and reducer: http://hadooptutorial.info/creating-custom-hadoop-writable-data-type/
 
 
+-------
+
 # Tools and Softwares
 
   * Building Hidden Markov Models in Python: http://hmmlearn.readthedocs.org/en/latest
 
 
---------------
+
 
 ## Datasets
 
