@@ -30,7 +30,7 @@ class SimpleTree {
 
         // tree traversal algorithms
         void depth_first_traversal() const;
-        void breath_first_traversal() const;
+        void breadth_first_traversal() const;
         void print_hierarchy(int) const;
 };
 
@@ -144,12 +144,12 @@ void SimpleTree<Type>::depth_first_traversal() const {
 
 
 template<typename Type>
-void SimpleTree<Type>::breath_first_traversal() const {
+void SimpleTree<Type>::breadth_first_traversal() const {
     std::cout << _element << " ";
     for (Node<SimpleTree *> *ptr = _children.head();
          ptr != nullptr;
          ptr = ptr->next()) {
-        ptr->retrieve()->breath_first_traversal();
+        ptr->retrieve()->breadth_first_traversal();
     }
 }
 
