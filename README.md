@@ -30,6 +30,7 @@
 ### Time-series data
 
   * Fourier Transformation http://www.thefouriertransform.com
+  * Conditional Random Field https://pystruct.github.io/index.html
 
 ### Hadoop (Java)
 
@@ -52,6 +53,4 @@
   * Million Song Dataset: http://labrosa.ee.columbia.edu/millionsong/
   * Adult dataset: http://archive.ics.uci.edu/ml/datasets/Adult  
   * Star Cluster: (Hertzsprung-Russell Diagram Data of Star Cluster CYG OB1) https://vincentarelbundock.github.io/Rdatasets/doc/robustbase/starsCYG.html
-
-
-
+  * Speech Recognition: https://code.google.com/archive/p/hmm-speech-recognition/downloads
