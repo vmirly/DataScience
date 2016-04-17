@@ -1,6 +1,15 @@
 Data Science Terminologies
 ==========
 
+## Feature Extraction
+
+**Term Frequency (TF)**
+
+**Term Frequency-Inverse Document Frequency (TF-IDF)**
+
+
+
+
 **0-1 Loss** 
 ```tex 
 l_{0-1}=\left\{ \begin{array}{ll} 0 & if h(X)=y\\ 1 & if h(x)\ne y\end{array} \right.
@@ -39,3 +48,11 @@ l_{0-1}=\left\{ \begin{array}{ll} 0 & if h(X)=y\\ 1 & if h(x)\ne y\end{array} \r
 
 
 **Conditional Random Field**
+
+
+
+## Evaluation Metrics
+
+**Cohens kappa coefficient**
+
+**Muttual Informaiton (MI)** $MI(x,y) = \frac{p(x,y)}{p(x)p(y)}$
