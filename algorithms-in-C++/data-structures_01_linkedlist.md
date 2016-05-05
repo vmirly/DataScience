@@ -10,7 +10,7 @@ Linked List
 
 
 
-<img src="figs/linked-list.svg"></img>
+<img src="figs/linked-list.png" width=400></img>
 
 ## Class Node
 
