@@ -8,7 +8,9 @@ Linked List
 
 
 
-![](figs/linked-list.svg)
+
+
+<img src="figs/linked-list.svg"></img>
 
 ## Class Node
 
