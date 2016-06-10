@@ -74,7 +74,7 @@ l_{0-1}=\left\{ \begin{array}{ll} 0 & if h(X)=y\\ 1 & if h(x)\ne y\end{array} \r
 
 ### Sampling
 
-**Jackknife resampling** is a technique that predates *bootstrap* sampling technique for estimateing some model parameters. Given a dataset of size $N$, Jackknife resampling uses the leave-one-out technique to calculate the desired parameter using the remaining $N-1$. This process is repated for each saple point, and finally the aggregate of all the estimates is the Jackknife estimator of that parameter.
+**Jackknife resampling** is a technique that predates *bootstrap* sampling technique for estimateing the precision of sample statistics (mean, median, ..). Given a dataset of size $N$, Jackknife resampling uses the leave-one-out technique to calculate the desired parameter using the remaining $N-1$.This process is repated for each saple point, and finally the aggregate of all the estimates is the Jackknife estimator of that parameter. (The main difference with bootstrap is that in bootstrap technique, subsets are drawn randomly with replacement.)
 
 
 ## Evaluation Metrics
