@@ -1,0 +1,6 @@
+ssh 
+ssh -N -f -L localhost:8888:localhost:8889 mirjalil@.edu
+
+jupyter notebook --no-browser --port 9999
+
+
