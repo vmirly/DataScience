@@ -20,5 +20,5 @@ Theory of Probability and Statistics
 
  9. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/09_conditional-distribution.ipynb">Conditional Distribution / Cond. Expectation and Cond. Variance</a>  
 
- 10. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/10-moment-generating-functions.ipynb">Moment Generating Functions and Limit Theorem</a>  
+ 10. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/10_moment-generating-functions.ipynb">Moment Generating Functions and Limit Theorem</a>  
  
