@@ -2,7 +2,7 @@ Theory of Probability and Statistics
 ==============
 
 
-![](figs/distro-relations.png)
+![](figs/distros-relations.png)
 
  1. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/01-intro.ipynb">Introduction</a>  
 
