@@ -25,4 +25,11 @@ Theory of Probability and Statistics
  9. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/09_conditional-distribution.ipynb">Conditional Distribution / Cond. Expectation and Cond. Variance</a>  
 
  10. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/10_moment-generating-functions.ipynb">Moment Generating Functions and Limit Theorem</a>  
- 
+
+ 11. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/11_convergence.ipynb">Statistical Convergence</a>
+
+ 12. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/12_central-limit_theorem.ipynb">Central Limit Theorem</a>
+
+ 13. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/13_multivariate_normal.ipynb">Multivariate Normal Distribution</a>
+
+ 14. <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/14_estimation.ipynb">Estimaiton</a>
