@@ -5,7 +5,7 @@
 
 # Link to Notebooks:
 
- * <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/README.md">Thoery of Probability and Statistics</a>
+ * <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/statistics-probability/README.md">Theory of Probability and Statistics</a>
 
  * <a href="https://github.com/mirjalil/DataScience/blob/master/notebooks/deeplearning/README.md">Deep Learning Concepts</a>
 
@@ -25,8 +25,8 @@ _______________________________
 
   * Kernel Methods: http://kernel-methods.net  
   * Support Vectors: http://support-vector.net  
-  * A collection of resources or SVM:  http://svms.org  
-  * Everythong you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
+  * A collection of resources on SVM:  http://svms.org  
+  * Everything you Want to Know about Kernel Trick: http://www.eric-kim.net/eric-kim-net/posts/1/kernel_trick.html
 
 
 ### Data Clustering
